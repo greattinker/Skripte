@@ -1,6 +1,6 @@
-\section{Äquivalenzprüfung duch Simulation}
+\subsection{Äquivalenzprüfung duch Simulation}
 
-\subsection{Voraussetzungen}
+\subsubsection{Voraussetzungen}
 \begin{itemize}
 	\item Schaltkreise müssen gleichviele Eingänge bzw. Ausgänge besitzen
 	\item falls in einem Schaltkreis ein Eingang bzw. Ausgang vorkommt, muss ein gleichnamiger Eingang bzw. Ausgang auch in den anderen Schaltkreisen vorkommen
@@ -10,7 +10,7 @@
 
 \end{itemize}
 
-\subsection{Vorgehen}
+\subsubsection{Vorgehen}
 \begin{enumerate}
 	\item über mögliche Zustände ($2^N$ mit N ... Anzahl der Eingänge) iterieren
 
@@ -29,5 +29,5 @@
 \end{enumerate}
 
 
-\subsection{Implementierung}
+\subsubsection{Implementierung}
 Für alle Circuits werden die möglichen Inputs berechnet und die erhaltenen Outputs miteinander verglichen. Sollte dabei ein Circuit enthalten sein, der abweicht, wird false zurückgegeben (Circuits sind nicht äquivalent). 

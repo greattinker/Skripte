@@ -35,6 +35,29 @@
 \BOOKMARK [2][-]{subsection.1.3.2.1}{Synchrone Kopplung}{section.1.3.2}
 \BOOKMARK [2][-]{subsection.1.3.2.2}{Asynchrone Kopplung}{section.1.3.2}
 \BOOKMARK [1][-]{section.1.3.3}{Initialisierung}{chapter.1.3}
+\BOOKMARK [0][-]{chapter.1.4}{Hardwarebeschreibungssprachen - Hardware Description Language \(HDL\)}{part.1}
+\BOOKMARK [1][-]{section.1.4.1}{Allgemein}{chapter.1.4}
+\BOOKMARK [1][-]{section.1.4.2}{VHDL}{chapter.1.4}
+\BOOKMARK [1][-]{section.1.4.3}{Verilog}{chapter.1.4}
+\BOOKMARK [0][-]{chapter.1.5}{Field-programmable Gate-Array \(FPGA\)}{part.1}
+\BOOKMARK [1][-]{section.1.5.1}{Architektur}{chapter.1.5}
+\BOOKMARK [1][-]{section.1.5.2}{Funktionsbl\366cke}{chapter.1.5}
+\BOOKMARK [1][-]{section.1.5.3}{I/O-Zellen}{chapter.1.5}
+\BOOKMARK [1][-]{section.1.5.4}{Verdrahtung}{chapter.1.5}
+\BOOKMARK [2][-]{subsection.1.5.4.1}{Topologie}{section.1.5.4}
+\BOOKMARK [2][-]{subsection.1.5.4.2}{Technologie}{section.1.5.4}
+\BOOKMARK [1][-]{section.1.5.5}{Speicherelemente}{chapter.1.5}
+\BOOKMARK [2][-]{subsection.1.5.5.1}{LUT-RAM}{section.1.5.5}
+\BOOKMARK [2][-]{subsection.1.5.5.2}{Block-RAM}{section.1.5.5}
+\BOOKMARK [1][-]{section.1.5.6}{IP-Cores}{chapter.1.5}
+\BOOKMARK [1][-]{section.1.5.7}{Konfigurierbarkeit}{chapter.1.5}
+\BOOKMARK [1][-]{section.1.5.8}{Konfigurationsmodi}{chapter.1.5}
+\BOOKMARK [0][-]{chapter.1.6}{Modellierung}{part.1}
+\BOOKMARK [0][-]{chapter.1.7}{Simulation}{part.1}
+\BOOKMARK [0][-]{chapter.1.8}{Zeitverhalten}{part.1}
+\BOOKMARK [0][-]{chapter.1.9}{Test}{part.1}
+\BOOKMARK [0][-]{chapter.1.10}{Hochgeschwindigkeit}{part.1}
+\BOOKMARK [0][-]{chapter.1.11}{Verlustleistung}{part.1}
 \BOOKMARK [-1][-]{part.2}{Entwurf eingebetteter Systeme}{}
 \BOOKMARK [-1][-]{part.3}{Parallelverarbeitung}{}
 \BOOKMARK [-1][-]{part.4}{Appendix}{}
@@ -65,4 +88,27 @@
 \BOOKMARK [2][-]{subsection.4.1.8.4}{04-Aufgabe Code}{section.4.1.8}
 \BOOKMARK [2][-]{subsection.4.1.8.5}{05-Aufgabe Code}{section.4.1.8}
 \BOOKMARK [2][-]{subsection.4.1.8.6}{06-Aufgabe Code}{section.4.1.8}
-\BOOKMARK [0][-]{chapter.4.2}{Entwurf eingebetteter Systeme Praktikum}{part.4}
+\BOOKMARK [0][-]{chapter.4.2}{Entwurf eingebetteter Systeme: Schaltkreisvalidation}{part.4}
+\BOOKMARK [1][-]{section.4.2.1}{Programm}{chapter.4.2}
+\BOOKMARK [2][-]{subsection.4.2.1.1}{Entwurf}{section.4.2.1}
+\BOOKMARK [2][-]{subsection.4.2.1.2}{\304quivalenzpr\374fung duch Simulation}{section.4.2.1}
+\BOOKMARK [2][-]{subsection.4.2.1.3}{\304quivalenzpr\374fung durch SAT-Solver}{section.4.2.1}
+\BOOKMARK [1][-]{section.4.2.2}{Versuche}{chapter.4.2}
+\BOOKMARK [2][-]{subsection.4.2.2.1}{1. Versuch}{section.4.2.2}
+\BOOKMARK [2][-]{subsection.4.2.2.2}{2. Versuch}{section.4.2.2}
+\BOOKMARK [2][-]{subsection.4.2.2.3}{3. Versuch}{section.4.2.2}
+\BOOKMARK [2][-]{subsection.4.2.2.4}{4. Versuch}{section.4.2.2}
+\BOOKMARK [2][-]{subsection.4.2.2.5}{5. Versuch}{section.4.2.2}
+\BOOKMARK [2][-]{subsection.4.2.2.6}{6. Versuch}{section.4.2.2}
+\BOOKMARK [1][-]{section.4.2.3}{Anhang}{chapter.4.2}
+\BOOKMARK [2][-]{subsection.4.2.3.1}{Circuit}{section.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.3.2}{Simulator}{section.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.3.3}{Solver}{section.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.3.4}{Parsers}{section.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.3.5}{Parser}{section.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.3.6}{BENCH}{section.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.3.7}{Gates}{section.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.3.8}{Gate}{section.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.3.9}{Input}{section.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.3.10}{DFF}{section.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.3.11}{Output}{section.4.2.3}

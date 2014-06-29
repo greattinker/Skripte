@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.24)  29 JUN 2014 15:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.24)  29 JUN 2014 16:25
 entering extended mode
  %&-line parsing enabled.
 **Skript.tex
@@ -705,21 +705,21 @@ Package: titlesec 2007/08/12 v2.8 Sectioning titles
 ) (./Skript.aux)
 \openout1 = `Skript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 80.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -780,7 +780,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 80.
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -789,48 +789,48 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count132
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
  (./Skript.out)
 (./Skript.out)
 \@outlinefile=\write3
 \openout3 = `Skript.out'.
 
 \AtBeginShipoutBox=\box37
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 81.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 82.
 
  (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 81.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 82.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 81.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 82.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 81.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 82.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 81.
+(Font)              <14.4> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 81.
+(Font)              <10> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 81.
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+(Font)              <7> on input line 82.
+LaTeX Font Info:    Try loading font information for U+msa on input line 82.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 82.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -861,14 +861,8 @@ Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)            on input line 128.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 129.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 130.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 131.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 133
+(scrreprt)            on input line 132.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 139
 .
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
@@ -878,12 +872,42 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 173.
-)
+(scrreprt)            on input line 145.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 146.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 147.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 148.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 149.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 150.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 151.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 152.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 153.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 154.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 196.
+ [3])
 \tf@toc=\write4
 \openout4 = `Skript.toc'.
 
- [3]
+ [4]
 Kapitel 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -893,20 +917,20 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              `scrreprt' soon .
 
 
-Overfull \hbox (2.36922pt too wide) in paragraph at lines 87--93
+Overfull \hbox (2.36922pt too wide) in paragraph at lines 88--94
 \OT1/lmr/m/n/10 Sie sind in der Lage Beschrei-bun-gen von Hardware-Systemen dur
 ch Sim-u-la-tion zu ver-i-fizieren und mithil-fe typ-is-ch-er Werkzeuge
  []
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 95.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 96.
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 95.
- [4
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 96.
+ [5
 
-] [5
+] [6
 
 ]
 (/media/Daten/Studium/Skripte/TechnischeInformatik/VLSI/00-VLSI.tex
@@ -919,82 +943,82 @@ ruk-tur-gr[]o^^Yen (In-te-gra-tions-grad) sowie steigen-der Tran-sis-toran-zahl
  (Moore's
  []
 
-[6
+[7
 
-] [7]
+] [8]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=394, page=17, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=628, page=17, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 17>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=396, page=18, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=630, page=18, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 18>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=398, page=19, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=632, page=19, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/01_Einfuehrung.pdf, page 19> [8 </media/Daten/Studium/Skripte/TechnischeInform
+/01_Einfuehrung.pdf, page 19> [9 </media/Daten/Studium/Skripte/TechnischeInform
 atik/resources/Vorlesung/VLSI/01_Einfuehrung.pdf, page is rotated 90 degrees> <
 /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_E
 infuehrung.pdf, page is rotated 90 degrees> </media/Daten/Studium/Skripte/Techn
 ischeInformatik/resources/Vorlesung/VLSI/01_Einfuehrung.pdf, page is rotated 90
  degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=435, page=21, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=669, page=21, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 21>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=437, page=22, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=671, page=22, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 22>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=439, page=23, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=673, page=23, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 23>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=441, page=24, 845.1575pt x 597.23125pt> [9 </media/Daten/St
-udium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_Einfuehrung.pdf,
- page is rotated 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformatik
-/resources/Vorlesung/VLSI/01_Einfuehrung.pdf, page is rotated 90 degrees>]
+Einfuehrung.pdf, id=675, page=24, 845.1575pt x 597.23125pt> [10 </media/Daten/S
+tudium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_Einfuehrung.pdf
+, page is rotated 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformati
+k/resources/Vorlesung/VLSI/01_Einfuehrung.pdf, page is rotated 90 degrees>]
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 24>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=480, page=25, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=714, page=25, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 25>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=482, page=26, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=716, page=26, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 26>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=484, page=27, 845.1575pt x 597.23125pt> [10 </media/Daten/S
+Einfuehrung.pdf, id=718, page=27, 845.1575pt x 597.23125pt> [11 </media/Daten/S
 tudium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_Einfuehrung.pdf
 , page is rotated 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformati
 k/resources/Vorlesung/VLSI/01_Einfuehrung.pdf, page is rotated 90 degrees> </me
@@ -1006,21 +1030,21 @@ I/01_Einfuehrung.pdf Graphic file (type pdf)
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 27>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=496, page=28, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=730, page=28, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 28>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=498, page=29, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=732, page=29, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 29>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=500, page=30, 845.1575pt x 597.23125pt> [11 </media/Daten/S
+Einfuehrung.pdf, id=734, page=30, 845.1575pt x 597.23125pt> [12 </media/Daten/S
 tudium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_Einfuehrung.pdf
 , page is rotated 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformati
 k/resources/Vorlesung/VLSI/01_Einfuehrung.pdf, page is rotated 90 degrees> </me
@@ -1032,12 +1056,12 @@ I/01_Einfuehrung.pdf Graphic file (type pdf)
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 30>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
-Einfuehrung.pdf, id=510, page=31, 845.1575pt x 597.23125pt>
+Einfuehrung.pdf, id=744, page=31, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/01_Einfuehrung.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/01_Einfuehrung.pdf, page 31> [12 </media/Daten/Studium/Skripte/TechnischeInfor
+/01_Einfuehrung.pdf, page 31> [13 </media/Daten/Studium/Skripte/TechnischeInfor
 matik/resources/Vorlesung/VLSI/01_Einfuehrung.pdf, page is rotated 90 degrees> 
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/01_
 Einfuehrung.pdf, page is rotated 90 degrees> </media/Daten/Studium/Skripte/Tech
@@ -1052,122 +1076,122 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 35.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 35.
-[13
+[14
 
 ]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=527, page=9, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=761, page=9, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 9>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=529, page=10, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=763, page=10, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/02_Schaltkreisentwurf.pdf, page 10> [14 </media/Daten/Studium/Skripte/Technisc
+/02_Schaltkreisentwurf.pdf, page 10> [15 </media/Daten/Studium/Skripte/Technisc
 heInformatik/resources/Vorlesung/VLSI/02_Schaltkreisentwurf.pdf, page is rotate
 d 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorl
 esung/VLSI/02_Schaltkreisentwurf.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=563, page=13, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=797, page=13, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 13>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=565, page=14, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=799, page=14, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/02_Schaltkreisentwurf.pdf, page 14> [15 </media/Daten/Studium/Skripte/Technisc
+/02_Schaltkreisentwurf.pdf, page 14> [16 </media/Daten/Studium/Skripte/Technisc
 heInformatik/resources/Vorlesung/VLSI/02_Schaltkreisentwurf.pdf, page is rotate
 d 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorl
 esung/VLSI/02_Schaltkreisentwurf.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=599, page=15, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=833, page=15, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 15>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=601, page=16, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=835, page=16, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 16>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=603, page=17, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=837, page=17, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/02_Schaltkreisentwurf.pdf, page 17> [16 </media/Daten/Studium/Skripte/Technisc
+/02_Schaltkreisentwurf.pdf, page 17> [17 </media/Daten/Studium/Skripte/Technisc
 heInformatik/resources/Vorlesung/VLSI/02_Schaltkreisentwurf.pdf, page is rotate
 d 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorl
 esung/VLSI/02_Schaltkreisentwurf.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=644, page=19, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=878, page=19, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/02_Schaltkreisentwurf.pdf, page 19> [17 </media/Daten/Studium/Skripte/Technisc
+/02_Schaltkreisentwurf.pdf, page 19> [18 </media/Daten/Studium/Skripte/Technisc
 heInformatik/resources/Vorlesung/VLSI/02_Schaltkreisentwurf.pdf, page is rotate
 d 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorl
 esung/VLSI/02_Schaltkreisentwurf.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=664, page=20, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=898, page=20, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 20>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=666, page=22, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=900, page=22, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 22>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=668, page=23, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=902, page=23, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/02_Schaltkreisentwurf.pdf, page 23> [18 </media/Daten/Studium/Skripte/Technisc
+/02_Schaltkreisentwurf.pdf, page 23> [19 </media/Daten/Studium/Skripte/Technisc
 heInformatik/resources/Vorlesung/VLSI/02_Schaltkreisentwurf.pdf, page is rotate
 d 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorl
 esung/VLSI/02_Schaltkreisentwurf.pdf, page is rotated 90 degrees> </media/Daten
 /Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_Schaltkreisen
 twurf.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=703, page=27, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=938, page=27, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 27>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=705, page=29, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=940, page=29, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/02_Schaltkreisentwurf.pdf, page 29> [19 </media/Daten/Studium/Skripte/Technisc
+/02_Schaltkreisentwurf.pdf, page 29> [20 </media/Daten/Studium/Skripte/Technisc
 heInformatik/resources/Vorlesung/VLSI/02_Schaltkreisentwurf.pdf, page is rotate
 d 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorl
 esung/VLSI/02_Schaltkreisentwurf.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=740, page=30, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=974, page=30, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
@@ -1179,144 +1203,144 @@ I/01_Einfuehrung.pdf Graphic file (type pdf)
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /01_Einfuehrung.pdf, page 21>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=743, page=33, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=977, page=33, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/02_Schaltkreisentwurf.pdf, page 33> [20 </media/Daten/Studium/Skripte/Technisc
+/02_Schaltkreisentwurf.pdf, page 33> [21 </media/Daten/Studium/Skripte/Technisc
 heInformatik/resources/Vorlesung/VLSI/02_Schaltkreisentwurf.pdf, page is rotate
 d 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=777, page=34, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=1011, page=34, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 34>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=779, page=35, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=1013, page=35, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 35>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=781, page=36, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=1015, page=36, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/02_Schaltkreisentwurf.pdf, page 36> [21 </media/Daten/Studium/Skripte/Technisc
+/02_Schaltkreisentwurf.pdf, page 36> [22 </media/Daten/Studium/Skripte/Technisc
 heInformatik/resources/Vorlesung/VLSI/02_Schaltkreisentwurf.pdf, page is rotate
 d 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorl
 esung/VLSI/02_Schaltkreisentwurf.pdf, page is rotated 90 degrees> </media/Daten
 /Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_Schaltkreisen
 twurf.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=790, page=37, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=1024, page=37, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 37>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=792, page=38, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=1026, page=38, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/02_Schaltkreisentwurf.pdf, page 38> [22 </media/Daten/Studium/Skripte/Technisc
+/02_Schaltkreisentwurf.pdf, page 38> [23 </media/Daten/Studium/Skripte/Technisc
 heInformatik/resources/Vorlesung/VLSI/02_Schaltkreisentwurf.pdf, page is rotate
 d 90 degrees> </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorl
 esung/VLSI/02_Schaltkreisentwurf.pdf, page is rotated 90 degrees> </media/Daten
 /Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_Schaltkreisen
 twurf.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=813, page=39, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=1047, page=39, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 39>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_
-Schaltkreisentwurf.pdf, id=815, page=40, 845.1575pt x 597.45204pt>
+Schaltkreisentwurf.pdf, id=1049, page=40, 845.1575pt x 597.45204pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/02_Schaltkreisentwurf.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page 40>)
 (/media/Daten/Studium/Skripte/TechnischeInformatik/VLSI/03-Automaten.tex
-[23 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
+[24 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /02_Schaltkreisentwurf.pdf, page is rotated 90 degrees> </media/Daten/Studium/S
 kripte/TechnischeInformatik/resources/Vorlesung/VLSI/02_Schaltkreisentwurf.pdf,
  page is rotated 90 degrees>]
 Kapitel 3.
 
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=853, page=4, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1087, page=4, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 4>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=855, page=5, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1089, page=5, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 5> [24
+/03_Automaten.pdf, page 5> [25
 
  </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03
 _Automaten.pdf, page is rotated 90 degrees> </media/Daten/Studium/Skripte/Techn
 ischeInformatik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 d
 egrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=907, page=6, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1142, page=6, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 6>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=909, page=7, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1144, page=7, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 7>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=911, page=9, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1146, page=9, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 9> [25 </media/Daten/Studium/Skripte/TechnischeInformat
+/03_Automaten.pdf, page 9> [26 </media/Daten/Studium/Skripte/TechnischeInformat
 ik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees> </med
 ia/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_Autom
 aten.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=968, page=10, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1202, page=10, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 10>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=970, page=11, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1204, page=11, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 11>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=972, page=12, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1206, page=12, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 12> [26 </media/Daten/Studium/Skripte/TechnischeInforma
+/03_Automaten.pdf, page 12> [27 </media/Daten/Studium/Skripte/TechnischeInforma
 tik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees> </me
 dia/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_Auto
 maten.pdf, page is rotated 90 degrees> </media/Daten/Studium/Skripte/Technische
@@ -1324,171 +1348,211 @@ Informatik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degree
 s> </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/
 03_Automaten.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=989, page=13, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1223, page=13, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 13>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=991, page=14, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1225, page=14, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 14>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=993, page=15, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1227, page=15, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 15> [27 </media/Daten/Studium/Skripte/TechnischeInforma
+/03_Automaten.pdf, page 15> [28 </media/Daten/Studium/Skripte/TechnischeInforma
 tik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees> </me
 dia/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_Auto
 maten.pdf, page is rotated 90 degrees> </media/Daten/Studium/Skripte/Technische
 Informatik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degree
 s>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1049, page=18, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1283, page=18, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 18>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1051, page=19, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1285, page=19, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 19> [28 </media/Daten/Studium/Skripte/TechnischeInforma
+/03_Automaten.pdf, page 19> [29 </media/Daten/Studium/Skripte/TechnischeInforma
 tik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1082, page=20, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1316, page=20, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 20>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1084, page=22, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1318, page=22, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 22> [29 </media/Daten/Studium/Skripte/TechnischeInforma
+/03_Automaten.pdf, page 22> [30 </media/Daten/Studium/Skripte/TechnischeInforma
 tik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees> </me
 dia/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_Auto
 maten.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1096, page=25, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1330, page=25, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 25> [30 </media/Daten/Studium/Skripte/TechnischeInforma
+/03_Automaten.pdf, page 25> [31 </media/Daten/Studium/Skripte/TechnischeInforma
 tik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1103, page=30, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1338, page=30, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 30> [31 </media/Daten/Studium/Skripte/TechnischeInforma
+/03_Automaten.pdf, page 30> [32 </media/Daten/Studium/Skripte/TechnischeInforma
 tik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1111, page=31, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1345, page=31, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 31>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1113, page=32, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1347, page=32, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 32>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1115, page=33, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1349, page=33, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 33> [32 </media/Daten/Studium/Skripte/TechnischeInforma
+/03_Automaten.pdf, page 33> [33 </media/Daten/Studium/Skripte/TechnischeInforma
 tik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees> </me
 dia/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_Auto
 maten.pdf, page is rotated 90 degrees> </media/Daten/Studium/Skripte/Technische
 Informatik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degree
 s>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1143, page=34, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1377, page=34, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 34>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1145, page=35, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1379, page=35, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 35>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1147, page=36, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1381, page=36, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 36> [33 </media/Daten/Studium/Skripte/TechnischeInforma
+/03_Automaten.pdf, page 36> [34 </media/Daten/Studium/Skripte/TechnischeInforma
 tik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees> </me
 dia/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_Auto
 maten.pdf, page is rotated 90 degrees> </media/Daten/Studium/Skripte/Technische
 Informatik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degree
 s>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1156, page=37, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1390, page=37, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 37>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1158, page=38, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1392, page=38, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
 /03_Automaten.pdf, page 38>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1160, page=39, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1394, page=39, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 39> [34 </media/Daten/Studium/Skripte/TechnischeInforma
+/03_Automaten.pdf, page 39> [35 </media/Daten/Studium/Skripte/TechnischeInforma
 tik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees> </me
 dia/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_Auto
 maten.pdf, page is rotated 90 degrees> </media/Daten/Studium/Skripte/Technische
 Informatik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degree
 s>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_
-Automaten.pdf, id=1169, page=40, 845.1575pt x 597.23125pt>
+Automaten.pdf, id=1403, page=40, 845.1575pt x 597.23125pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLS
 I/03_Automaten.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI
-/03_Automaten.pdf, page 40>)) [35 </media/Daten/Studium/Skripte/TechnischeInfor
-matik/resources/Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees> </
-media/Daten/Studium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_Au
-tomaten.pdf, page is rotated 90 degrees>] [36
+/03_Automaten.pdf, page 40>)
+(/media/Daten/Studium/Skripte/TechnischeInformatik/VLSI/04-Hardwarebeschreibung
+ssprachen.tex [36 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/
+Vorlesung/VLSI/03_Automaten.pdf, page is rotated 90 degrees> </media/Daten/Stud
+ium/Skripte/TechnischeInformatik/resources/Vorlesung/VLSI/03_Automaten.pdf, pag
+e is rotated 90 degrees>]
+Kapitel 4.
+) (/media/Daten/Studium/Skripte/TechnischeInformatik/VLSI/05-FPGA.tex [37
 
-] [37
+]
+Kapitel 5.
+)
+(/media/Daten/Studium/Skripte/TechnischeInformatik/VLSI/07-Modellierung_Simulat
+ion.tex [38
 
-] [38
+]
+Kapitel 6.
+[39
+
+]
+Kapitel 7.
+)
+(/media/Daten/Studium/Skripte/TechnischeInformatik/VLSI/08-Zeitverhalten_Test.t
+ex [40
+
+]
+Kapitel 8.
+[41
+
+]
+Kapitel 9.
+)
+(/media/Daten/Studium/Skripte/TechnischeInformatik/VLSI/09-Hochgeschwindigkeit_
+Verlustleistung.tex [42
+
+]
+Kapitel 10.
+[43
+
+]
+Kapitel 11.
+)) [44
+
+] [45
+
+] [46
+
+] [47
 
 ]
 (/media/Daten/Studium/Skripte/TechnischeInformatik/Appendix/00-Appendix.tex
@@ -1500,7 +1564,7 @@ k/resources/Praktikum/VLSI/Material/Praktikumsboard/DE0_Description.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Mat
-erial/Praktikumsboard/DE0_Description.pdf, id=1190, page=1, 597.50829pt x 845.0
+erial/Praktikumsboard/DE0_Description.pdf, id=1457, page=1, 597.50829pt x 845.0
 471pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Material/Praktikumsboard/DE0_Description.pdf Graphic file (type pdf)
@@ -1513,24 +1577,24 @@ k/resources/Praktikum/VLSI/Material/Praktikumsboard/DE0_Description.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Mat
-erial/Praktikumsboard/DE0_Description.pdf, id=1192, page=2, 597.50829pt x 845.0
+erial/Praktikumsboard/DE0_Description.pdf, id=1459, page=2, 597.50829pt x 845.0
 471pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Material/Praktikumsboard/DE0_Description.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
-/Material/Praktikumsboard/DE0_Description.pdf, page 2> [39
+/Material/Praktikumsboard/DE0_Description.pdf, page 2> [48
 
  </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Ma
 terial/Praktikumsboard/DE0_Description.pdf>]
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/Stoppuhr.pdf, id=1226, page=1, 597.23125pt x 845.1575p
+abe/Protokolle/resources/Stoppuhr.pdf, id=1493, page=1, 597.23125pt x 845.1575p
 t>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/Stoppuhr.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
-/Abgabe/Protokolle/resources/Stoppuhr.pdf, page 1> [40 </media/Daten/Studium/Sk
+/Abgabe/Protokolle/resources/Stoppuhr.pdf, page 1> [49 </media/Daten/Studium/Sk
 ripte/TechnischeInformatik/resources/Praktikum/VLSI/Material/Praktikumsboard/DE
 0_Description.pdf>]
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
@@ -1544,24 +1608,24 @@ File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/Stoppuhr.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
-/Abgabe/Protokolle/resources/Stoppuhr.pdf, page 1> [41 </media/Daten/Studium/Sk
+/Abgabe/Protokolle/resources/Stoppuhr.pdf, page 1> [50 </media/Daten/Studium/Sk
 ripte/TechnischeInformatik/resources/Praktikum/VLSI/Abgabe/Protokolle/resources
 /Stoppuhr.pdf>]
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
 abe/Protokolle/02-Aufgabe.tex)
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/Stoppuhr.pdf, id=1263, page=2, 597.23125pt x 845.1575p
+abe/Protokolle/resources/Stoppuhr.pdf, id=1531, page=2, 597.23125pt x 845.1575p
 t>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/Stoppuhr.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
-/Abgabe/Protokolle/resources/Stoppuhr.pdf, page 2> [42]
+/Abgabe/Protokolle/resources/Stoppuhr.pdf, page 2> [51]
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/03-Aufgabe.tex [43 </media/Daten/Studium/Skripte/TechnischeInfor
+abe/Protokolle/03-Aufgabe.tex [52 </media/Daten/Studium/Skripte/TechnischeInfor
 matik/resources/Praktikum/VLSI/Abgabe/Protokolle/resources/Stoppuhr.pdf>])
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/Stoppuhr.pdf, id=1296, page=3, 597.23125pt x 845.1575p
+abe/Protokolle/resources/Stoppuhr.pdf, id=1563, page=3, 597.23125pt x 845.1575p
 t>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/Stoppuhr.pdf Graphic file (type pdf)
@@ -1569,7 +1633,7 @@ I/Abgabe/Protokolle/resources/Stoppuhr.pdf Graphic file (type pdf)
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
 /Abgabe/Protokolle/resources/Stoppuhr.pdf, page 3>
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/04-Aufgabe.tex [44 </media/Daten/Studium/Skripte/TechnischeInfor
+abe/Protokolle/04-Aufgabe.tex [53 </media/Daten/Studium/Skripte/TechnischeInfor
 matik/resources/Praktikum/VLSI/Abgabe/Protokolle/resources/Stoppuhr.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -1577,29 +1641,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/04-led.png, id=1313, 493.845pt x 376.40625pt>
+abe/Protokolle/resources/04-led.png, id=1580, 493.845pt x 376.40625pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/04-led.png Graphic file (type png)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
 /Abgabe/Protokolle/resources/04-led.png>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/04-entpreller.png, id=1315, 665.48625pt x 611.28375pt>
+abe/Protokolle/resources/04-entpreller.png, id=1582, 665.48625pt x 611.28375pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/04-entpreller.png Graphic file (type png)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
-/Abgabe/Protokolle/resources/04-entpreller.png> [45 </media/Daten/Studium/Skrip
+/Abgabe/Protokolle/resources/04-entpreller.png> [54 </media/Daten/Studium/Skrip
 te/TechnischeInformatik/resources/Praktikum/VLSI/Abgabe/Protokolle/resources/04
 -led.png (PNG copy)>])
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/Stoppuhr.pdf, id=1322, page=4, 597.23125pt x 845.1575p
+abe/Protokolle/resources/Stoppuhr.pdf, id=1589, page=4, 597.23125pt x 845.1575p
 t>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/Stoppuhr.pdf Graphic file (type pdf)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
-/Abgabe/Protokolle/resources/Stoppuhr.pdf, page 4> [46 </media/Daten/Studium/Sk
+/Abgabe/Protokolle/resources/Stoppuhr.pdf, page 4> [55 </media/Daten/Studium/Sk
 ripte/TechnischeInformatik/resources/Praktikum/VLSI/Abgabe/Protokolle/resources
 /04-entpreller.png (PNG copy)>]
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
@@ -1618,7 +1682,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--22
 
  []
 
-[47 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
+[56 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
 /Abgabe/Protokolle/resources/Stoppuhr.pdf>])
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/Stoppuhr.pdf Graphic file (type pdf)
@@ -1626,7 +1690,7 @@ I/Abgabe/Protokolle/resources/Stoppuhr.pdf Graphic file (type pdf)
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
 /Abgabe/Protokolle/resources/Stoppuhr.pdf, page 4>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/Stoppuhr.pdf, id=1348, page=5, 597.23125pt x 845.1575p
+abe/Protokolle/resources/Stoppuhr.pdf, id=1616, page=5, 597.23125pt x 845.1575p
 t>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/Stoppuhr.pdf Graphic file (type pdf)
@@ -1636,14 +1700,14 @@ I/Abgabe/Protokolle/resources/Stoppuhr.pdf Graphic file (type pdf)
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
 abe/Protokolle/06-Aufgabe.tex
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/06-stopuhr.png, id=1350, 1357.07pt x 1021.8175pt>
+abe/Protokolle/resources/06-stopuhr.png, id=1618, 1357.07pt x 1021.8175pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/06-stopuhr.png Graphic file (type png)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
-/Abgabe/Protokolle/resources/06-stopuhr.png> [48 </media/Daten/Studium/Skripte/
+/Abgabe/Protokolle/resources/06-stopuhr.png> [57 </media/Daten/Studium/Skripte/
 TechnischeInformatik/resources/Praktikum/VLSI/Abgabe/Protokolle/resources/Stopp
-uhr.pdf>] [49 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Prak
+uhr.pdf>] [58 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Prak
 tikum/VLSI/Abgabe/Protokolle/resources/06-stopuhr.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
@@ -1651,7 +1715,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
 
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/06-Entprellautomat.png, id=1371, 488.57532pt x 417.810
+abe/Protokolle/resources/06-Entprellautomat.png, id=1638, 488.57532pt x 417.810
 94pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/06-Entprellautomat.png Graphic file (type png)
@@ -1659,19 +1723,19 @@ I/Abgabe/Protokolle/resources/06-Entprellautomat.png Graphic file (type png)
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
 /Abgabe/Protokolle/resources/06-Entprellautomat.png>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/06-Zaehler.png, id=1372, 371.13657pt x 314.67563pt>
+abe/Protokolle/resources/06-Zaehler.png, id=1639, 371.13657pt x 314.67563pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/06-Zaehler.png Graphic file (type png)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
 /Abgabe/Protokolle/resources/06-Zaehler.png>
 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/resources/06-Stoppuhr.png, id=1373, 601.4972pt x 515.67656pt>
+abe/Protokolle/resources/06-Stoppuhr.png, id=1640, 601.4972pt x 515.67656pt>
 File: /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/06-Stoppuhr.png Graphic file (type png)
 
 <use /media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI
-/Abgabe/Protokolle/resources/06-Stoppuhr.png> [50 </media/Daten/Studium/Skripte
+/Abgabe/Protokolle/resources/06-Stoppuhr.png> [59 </media/Daten/Studium/Skripte
 /TechnischeInformatik/resources/Praktikum/VLSI/Abgabe/Protokolle/resources/06-E
 ntprellautomat.png (PNG copy)> </media/Daten/Studium/Skripte/TechnischeInformat
 ik/resources/Praktikum/VLSI/Abgabe/Protokolle/resources/06-Zaehler.png (PNG cop
@@ -1685,75 +1749,163 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 abe/Protokolle/../Aufg1/Decoder.vhdl
 LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <9> not available
 (Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 1.
- [51 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
+ [60 </media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLS
 I/Abgabe/Protokolle/resources/06-Stoppuhr.png (PNG copy)>])
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg2/Hamming.vhdl) [52]
+abe/Protokolle/../Aufg2/Hamming.vhdl) [61]
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
 abe/Protokolle/../Aufg3/Schieber.vhdl)
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg3/Zaehler.vhdl [53])
+abe/Protokolle/../Aufg3/Zaehler.vhdl [62])
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg4/LED.vhdl [54])
+abe/Protokolle/../Aufg4/LED.vhdl [63])
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg4/Entprellung.vhdl [55])
+abe/Protokolle/../Aufg4/Entprellung.vhdl [64])
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg4/Zaehler.vhdl [56])
+abe/Protokolle/../Aufg4/Zaehler.vhdl [65])
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg5/hallo.vhdl [57])
+abe/Protokolle/../Aufg5/hallo.vhdl [66])
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg5/Decoder.vhdl [58])
+abe/Protokolle/../Aufg5/Decoder.vhdl [67])
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
 abe/Protokolle/../Aufg5/Multiplex.vhdl
 Overfull \hbox (8.20154pt too wide) in paragraph at lines 51--52
 [][][][][][][]  
  []
 
-[59]
+[68]
 Overfull \hbox (8.20154pt too wide) in paragraph at lines 53--54
 [][][][][][][]  
  []
 
 )
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg6/Stoppuhr.vhd [60] [61])
+abe/Protokolle/../Aufg6/Stoppuhr.vhd [69] [70])
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg6/Decoder.vhdl [62])
+abe/Protokolle/../Aufg6/Decoder.vhdl [71])
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg6/EntprellAutomat.vhdl [63])
+abe/Protokolle/../Aufg6/EntprellAutomat.vhdl [72])
 (/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/VLSI/Abg
-abe/Protokolle/../Aufg6/Zaehler.vhdl [64])) [65]
+abe/Protokolle/../Aufg6/Zaehler.vhdl [73])) [74]
 Kapitel 2.
-) [66
 
-] (./Skript.aux) ) 
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/Programm.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--19
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 21--44
+
+ []
+
+[75
+
+]
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/equiv-simulation.tex) [76]
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/equiv-sat.tex) [77]
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/Versuche.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--35
+
+ []
+
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 131--160
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 164--53
+
+ []
+
+[79]
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/Anhang.tex
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+)
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/main/Circuit.h [80])
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/main/Simulator.h)
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/main/Solver.h [81])
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/parser/Parsers.h)
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/parser/Parser.h [82])
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/parser/BENCH.h)
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/gates/Gates.h [83])
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/gates/Gate.h [84])
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/gates/Input.h)
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/gates/DFF.h [85])
+(/media/Daten/Studium/Skripte/TechnischeInformatik/resources/Praktikum/Mikrorec
+hner/Protokolle/../Simulator/src/gates/Output.h) [86])) (./Skript.aux) ) 
 Here is how much of TeX's memory you used:
- 12069 strings out of 495061
- 207667 string characters out of 1182621
- 512002 words of memory out of 3000000
- 13937 multiletter control sequences out of 15000+50000
+ 13148 strings out of 495061
+ 234172 string characters out of 1182621
+ 514898 words of memory out of 3000000
+ 14483 multiletter control sequences out of 15000+50000
  79834 words of font info for 76 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 44i,13n,47p,344b,1967s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/
-texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-math
-it.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts
-/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmtt9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb>
-Output written on Skript.pdf (66 pages, 2979349 bytes).
+ 44i,13n,61p,702b,1974s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/
+fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.e
+nc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+bx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texmf/fonts/type1/public/lm/lmt
+ti10.pfb>
+Output written on Skript.pdf (86 pages, 3116215 bytes).
 PDF statistics:
- 2533 PDF objects out of 2984 (max. 8388607)
- 983 named destinations out of 1000 (max. 500000)
- 1363 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3340 PDF objects out of 3580 (max. 8388607)
+ 1443 named destinations out of 1728 (max. 500000)
+ 1731 words of extra memory for PDF output out of 10000 (max. 10000000)
 

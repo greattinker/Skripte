@@ -1,6 +1,6 @@
-\section{Äquivalenzprüfung durch SAT-Solver}
+\subsection{Äquivalenzprüfung durch SAT-Solver}
 
-\subsection{Voraussetzungen}
+\subsubsection{Voraussetzungen}
 \begin{itemize}
 	\item Schaltkreise müssen gleichviele Eingänge bzw. Ausgänge besitzen
 	\item falls in einem Schaltkreis ein Eingang bzw. Ausgang vorkommt, muss ein gleichnamiger Eingang bzw. Ausgang auch in den anderen Schaltkreisen vorkommen
@@ -11,7 +11,7 @@
 \end{itemize}
 
 
-\subsection{Vorgehen}
+\subsubsection{Vorgehen}
 \begin{enumerate}
 	\item es wird über alle Schaltkreise iteriert
 	
@@ -27,5 +27,5 @@
 \end{enumerate}
 
 
-\subsection{Implementierung}
+\subsubsection{Implementierung}
 Der verwendete SAT-Solver ist miniSAT in der Version 1.14 als Binary. Die generierten KNF-Klauseln werden in eine Datei mit dem Namen cnf geschrieben und anschliesend vom SAT-Solver gelesen. Die jeweiligen Gatter-Klassen sind so implementiert, dass sie ihre Funktion als KNF darstellen können. Die Klasse \code{Solver} enthält einen Zähler für die Benennung der KNF-Variablen.

@@ -1,14 +1,14 @@
-\chapter{Programm}
+\section{Programm}
 
-\section{Entwurf}
-\subsection{Circuit}
+\subsection{Entwurf}
+\subsubsection{Circuit}
 Das Grundgerüst des Programms bildet die \code{Circuit}-Klasse, die einen Schaltkreis und seine Funktionalitäten implementiert. Die Eingangsbelegung des Schaltkreises wird durch eine Zustandsvariable \code{unsigned int state} repräsentiert, die einen Wert zwischen 0 und $2^N$ annehmen kann, wobei $N$ die Anzahl der Eingänge ist. 
 \\\\
 Die Eingänge (\code{Input}-Objekte), Gatter (\code{Gate}-Objekte) und Ausgänge (\code{Output}-Objekte) werden in jeweils eigenen Maps abgelegt, deren Keys vom Typ \code{std::string} die Bezeichner der jeweiligen Objekte sind. Alle Gatter sind als Klassen implementiert, die von der abstrakten Klasse \code{Gate} erben. Bei manchen Gattern - wie AND, Or, usw. - können beliebig viele Eingänge definiert werden. Ein Gattereingang ist ein Zeiger, auf entweder den Wert eines \code{Input}-Objektes oder auf den Ausgang eines anderen \code{Gate}-Objektes. Die Ein- und Ausgänge der Gatter sind vom Typ \code{bool}.
 \\\\
 Bei der Simulation eines Schaltkreises wird über den \code{state} der \code{Circuit}-Klasse iteriert und dessen Wert in Binärdarstellung auf die Eingänge abgebildet. Nach jeder neuen Eingangsbelegung müssen die Gatter durchlaufen werden, bis das neue Signal die Ausgänge erreicht.
 
-\subsection{Parser}
+\subsubsection{Parser}
 Zum Parsen wird die Klasse \code{Parser} als Grundgerüst zur Verfügung gestellt, wobei die genauere Implementierung für unterschiedliche Benchmarks in von dieser Klasse erbenden Klassen verschoben wurde. Für das Benchmark BENCH ist eine solche gleichnamige Klasse vorhanden. 
 \\\\
 Ein Parser kann Schaltkreise aus Dateien lesen und diese anschliesend als \code{Circuit}-Objekte zurückgeben.
@@ -17,7 +17,7 @@ Der Parser für das BENCH-Format geht davon aus, dass in der einzulesenden Datei
 \\\\
 Um einen Schaltkreis aus einer Datei zu Parsen, müssen dem Programm die Argumente \\\code{-p BENCHMARK DATEI} mitgeteilt werden.
 
-\subsection{Simulator}
+\subsubsection{Simulator}
 Die Klasse \code{Simulator} enthält eine Liste von geparsten \code{Circuit}-Objekten, die simuliert werden können. Dazu wird wieder über den Zustand der Schaltkreise iteriert.
 \\\\
 Um zum Beispiel zwei Schaltkreise aus Dateien zu parsen und zu Simulieren müssen folgende Argumente übergeben werden:\\
