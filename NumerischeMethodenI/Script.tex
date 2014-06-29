@@ -1,0 +1,35 @@
+\documentclass[12pt,german,a4paper]{scrreprt}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc} 
+\usepackage{lmodern}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{pdfpages}
+\usepackage{geometry}
+\geometry{a4paper, left=1.5cm,right=1.5cm, top=2cm, bottom=2cm} 
+
+\title{Skript Numerische Methoden I}
+\subtitle{Finite-Elemente-Methoden und Randelemente-Methoden}
+\author{Christian Kroh}
+\date{\today{}, Dresden}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\part{Randwertaufgaben (RWA)}
+\newpage
+\input{RWA/00-RWA}
+
+\part{Einführung in die Finite-Elemente-Methode (FEM)}
+\newpage
+\input{FEM/00-FEM}
+
+\part{Einführung in die Randelemente-Methode (REM)}
+\newpage
+\input{REM/00-REM}
+\end{document}

@@ -1,0 +1,96 @@
+\section{Formulierung der Randwertaufgabe}
+Beispiel Zugstab\\
+(Graphik Zugstab einfügen)\\
+\subsection{Differentielle Formulierung}
+Auswertung von Bilanzgleichungen an einem infinitessimalen Volumenelement\\
+\begin{itemize}
+\item Gleichgewichtsbedingung: \\
+\(\downarrow -F_L + F_L + dF_L + q\,dx = 0 \\\\ \frac{dF_L}{dx} = -q \\\\ F_L' = -q\)
+
+\item kinetische Annahme:\\
+	\(F_L = \sigma \cdot A \)
+	
+\item kinematische Annahme\\
+	\(\epsilon = \frac{du}{dx} = u'\)
+	
+\item[$\Rightarrow$] konstitutive Beziehung (Material)\\
+	\(\sigma = E \cdot \epsilon\)
+	
+\item[$\Rightarrow$] Einsetzen in die Grundgleichung\\
+	\(F_L = \sigma \cdot A = E \cdot \epsilon \cdot A \quad \Rightarrow \quad F_L' = (E \cdot A \cdot u')' = -q\)
+\end{itemize}
+\paragraph{Annahme: konstanter Querschnitt}\hfill\\\\
+\(E\,A\,u'' + q = 0 \qquad \forall x \in [0,l]\)
+
+\begin{description}
+	\item[Randbedingungen]\hfill
+		\begin{itemize}
+		\item wesentliche RB: \(u(x=0) = \tilde{u} = 0 \)
+		\item natürliche RB: \(F_L (x=l) = F = 0 \\ E\,A\,u' (x=l) = F = 0\)
+		\end{itemize}
+	\item[Zuordnung]\hfill\\
+			\(D = E\,A (...)'' \\
+			D_1 = 1 (...) \\
+			D_2 = E\,A(...)' \\
+			\Omega : x \in [0, l] \\
+			\Gamma_1 : x = 0 \\
+			\Gamma_2 : x = l \)
+\end{description}
+
+\subsection{Variationsformulierung}
+\begin{description}
+	\item[Grundlage : Variationsrechnung] Verformung eines elastischen Systems, sodass eleastisches Gesamtpotential extremal (Minimum)
+	
+	\item[Voraussetzungen:]\hfill \\
+		\begin{itemize}
+			\item elastisches Materialverhalten\\
+			\(\Gamma = \frac{d \Pi_i}{d \epsilon}\)
+			\item Potential der äußeren Lasten \\
+			\(F = \frac{d \Pi_\epsilon}{d u}\)
+		\end{itemize}
+	\item[Variationsformulierung für Mechanik] Prinzip vom stationären Wert des elastischen Gesamtsystems \\\\ Vorgaben zur Herleitung der DGL und RB:
+		\begin{itemize}
+			\item Aufstellen des elastischen Gesamtpotentialfelds
+			\item suchen des stationären Werts $\Pi \rightarrow$ min, max
+		\end{itemize}
+	\item[Kontinuum] funktional d.h. Funktion von Funktionen\\
+		\(\Pi = \Pi (u (x) , u' (x), x) \rightarrow min, max\)
+		
+	\item[notwendige Bedingung] für stionären Wert (Extremwert)\\
+		\(d \,\Pi = 0\) \hspace{2cm} $d \,\Pi$ ... erste Variation von $\Pi$\\
+		\paragraph{Bsp: Stabproblem - Aufstellen des Potentials}\hfill \\
+		\(	\Pi = \Pi_i - \Pi_a\\
+			\Pi_i = \Pi_f\) ... Veränderungspotential\\
+		\(	\Pi_i = \int\limits_\Omega \Pi_i^* \, dV\)
+\end{description}
+
+\subsection{Prinzip der virtuellen Arbeit}
+\begin{itemize}
+	\item elektrisches Gesamtpotential: Einschränkung auf elastische Potentiallasten
+	\item[$\Rightarrow$] Prinzip der virtuellen Arbeit ist allgemein anwendbar = Prinzip der virtuellen Verschiebung
+	
+	\begin{itemize}
+		\item virtuelle Arbeit {\boldmath\(\partial W\)} wird an einem System verrichtet (durch eine geringfügige Störung \(\partial u\) des Verschiebungsfeldes \(u\))
+		\item Eigenschaften von \textbf{\boldmath\(\partial u\) = virtuelle Verschiebung}
+			\begin{itemize}
+				\item beliebig
+				\item infinitessimal
+				\item kinematisch zulässig (\(\partial u = 0\))
+			\end{itemize}
+		\item Gleichgewicht (GGW) entspricht der Forderung \\
+			\(\partial W = 0\)\\
+			\(\partial W = \partial W_{innen} + \partial W_{außen} = 0\)
+	\end{itemize}
+\end{itemize}
+\paragraph{Beispiel: Stab}
+	\(\partial W = \int G \partial \rho\,dV - \int\limits_0^l q\,du\,dx - Fdu(l)\)\\
+	beliebiges Materialverhalten, keine Einschränkungen\\
+	\(\Rightarrow\) GGW: \(\partial W = 0\)\\
+	\(\Gamma = E \epsilon\), \(\epsilon = u'\), \(dV = Ad\)\\\\
+	{\boldmath\(\partial W = \int\limits_0^l EAu' \partial u'\, dx - \int\limits_0^l q \partial u\, dx - Fdu(l) = 0\)}\\\\
+	$\Rightarrow$ partielle Integration, \(\partial u(0) = 0\), sonst \(\partial u\) beliebig\\
+	liefert 
+	\begin{itemize}
+		\item \(E A u'' + q = 0 \qquad\) DGL
+		\item \(E A u'(l) -F = 0 \qquad\) natürliche Randbedingung
+	\end{itemize}

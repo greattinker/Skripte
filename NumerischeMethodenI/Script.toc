@@ -1,0 +1,17 @@
+\select@language {ngerman}
+\contentsline {part}{\numberline {I}Randwertaufgaben (RWA)}{3}
+\contentsline {chapter}{\numberline {1}Formulierung und n\IeC {\"a}herungsweise L\IeC {\"o}sung von Randwertaufgaben (RWA)}{4}
+\contentsline {section}{\numberline {1.1}Randwertaufgabe (RWA)}{4}
+\contentsline {section}{\numberline {1.2}Formulierung der Randwertaufgabe}{4}
+\contentsline {subsection}{\numberline {1.2.1}Differentielle Formulierung}{4}
+\contentsline {paragraph}{Annahme: konstanter Querschnitt}{5}
+\contentsline {subsection}{\numberline {1.2.2}Variationsformulierung}{5}
+\contentsline {paragraph}{Bsp: Stabproblem - Aufstellen des Potentials}{6}
+\contentsline {subsection}{\numberline {1.2.3}Prinzip der virtuellen Arbeit}{6}
+\contentsline {paragraph}{Beispiel: Stab}{6}
+\contentsline {section}{\numberline {1.3}N\IeC {\"a}herungsweises L\IeC {\"o}sen einer RWA}{6}
+\contentsline {subsection}{\numberline {1.3.1}Starke Form}{7}
+\contentsline {section}{\numberline {1.4}\IeC {\"U}bung 1}{9}
+\contentsline {section}{\numberline {1.5}\IeC {\"U}bung 1 - L\IeC {\"o}sung}{10}
+\contentsline {part}{\numberline {II}Einf\IeC {\"u}hrung in die Finite-Elemente-Methode (FEM)}{11}
+\contentsline {part}{\numberline {III}Einf\IeC {\"u}hrung in die Randelemente-Methode (REM)}{12}
