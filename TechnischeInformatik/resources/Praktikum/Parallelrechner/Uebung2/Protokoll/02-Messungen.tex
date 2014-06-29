@@ -1,0 +1,115 @@
+\section{Zeitmessungen}
+Gemessen mit Nvidia Geforce GTX 460 und Nvidia Tesla K20X (Taurus).
+\subsection{Block/Grid-Definition Variante 1}
+\label{lst:a6-kernel}
+\lstinputlisting[language=C, linerange=24-25, firstnumber=24]{../a6.cu}
+\paragraph{Nvidia Geforce GTX 460: Matrix-Multiplikation Dimension 1024 x 1024}\hfill\\
+\begin{tabular}{|c|c|c||c|c|c||c|r|r|}
+	\hline
+	\multicolumn{3}{|c||}{Griddim} & \multicolumn{3}{|c||}{Blockdim} & \textsc{Dimension} & \textsc{Runtime} & \textsc{GFLOP/s} \\
+	\hline
+	\textsc{X} & \textsc{Y} & \textsc{Z} & \textsc{X} & \textsc{Y} & \textsc{Z} & & & \\
+	\hline
+	\hline
+	1024 & 1 & 1 & 1024 & 1 & 1 & 1024 & 1.0439s  & 2.06 \\ 
+	\hline 
+	1024 & 2 & 1 & 512 & 1 & 1 & 1024 & 1.0020s  & 2.14 \\ 
+	\hline 
+	1024 & 4 & 1 & 256 & 1 & 1 & 1024 & 0.9182s  & 2.34 \\ 
+	\hline 
+	1024 & 8 & 1 & 128 & 1 & 1 & 1024 & 0.8127s  & 2.64 \\ 
+	\hline 
+	1024 & 16 & 1 & 64 & 1 & 1 & 1024 & 0.6690s  & 3.21 \\ 
+	\hline 
+	1024 & 32 & 1 & 32 & 1 & 1 & 1024 & 0.4718s  & 4.55 \\ 
+	\hline 
+	1024 & 64 & 1 & 16 & 1 & 1 & 1024 & 0.4798s  & 4.48 \\ 
+	\hline 
+	1024 & 128 & 1 & 8 & 1 & 1 & 1024 & 0.6687s  & 3.21 \\ 
+	\hline 
+	1024 & 256 & 1 & 4 & 1 & 1 & 1024 & 1.1060s  & 1.94 \\ 
+	\hline 
+
+\end{tabular}
+
+
+\paragraph{Nvidia Tesla K20X: Matrix-Multiplikation Dimension 1024 x 1024}\hfill\\
+\begin{tabular}{|c|c|c||c|c|c||c|r|r|}
+	\hline
+	\multicolumn{3}{|c||}{Griddim} & \multicolumn{3}{|c||}{Blockdim} & \textsc{Dimension} & \textsc{Runtime} & \textsc{GFLOP/s} \\
+	\hline
+	\textsc{X} & \textsc{Y} & \textsc{Z} & \textsc{X} & \textsc{Y} & \textsc{Z} & & & \\
+	\hline
+	\hline
+	1024 & 1 & 1 & 1024 & 1 & 1 & 1024 & 0.2250s  & 9.54 \\ 
+	\hline 
+	1024 & 2 & 1 & 512 & 1 & 1 & 1024 & 0.2236s  & 9.60 \\ 
+	\hline 
+	1024 & 4 & 1 & 256 & 1 & 1 & 1024 & 0.2229s  & 9.63 \\ 
+	\hline 
+	1024 & 8 & 1 & 128 & 1 & 1 & 1024 & 0.2227s  & 9.64 \\ 
+	\hline 
+	1024 & 16 & 1 & 64 & 1 & 1 & 1024 & 0.2226s  & 9.65 \\ 
+	\hline 
+	1024 & 32 & 1 & 32 & 1 & 1 & 1024 & 0.2253s  & 9.53 \\ 
+	\hline 
+	1024 & 64 & 1 & 16 & 1 & 1 & 1024 & 0.2350s  & 9.14 \\ 
+	\hline 
+	1024 & 128 & 1 & 8 & 1 & 1 & 1024 & 0.2627s  & 8.18 \\ 
+	\hline 
+	1024 & 256 & 1 & 4 & 1 & 1 & 1024 & 0.3930s  & 5.46 \\ 
+	\hline 
+
+\end{tabular}
+
+
+\subsection{Block/Grid-Definition Variante 2}
+\label{lst:a6-kernel}
+\lstinputlisting[language=C, linerange=26-27, firstnumber=26]{../a6.cu}
+\paragraph{Nvidia Geforce GTX 460: Matrix-Multiplikation Dimension 1024 x 1024}\hfill\\
+\begin{tabular}{|c|c|c||c|c|c||c|r|r|}
+	\hline
+	\multicolumn{3}{|c||}{Griddim} & \multicolumn{3}{|c||}{Blockdim} & \textsc{Dimension} & \textsc{Runtime} & \textsc{GFLOP/s} \\
+	\hline
+	\textsc{X} & \textsc{Y} & \textsc{Z} & \textsc{X} & \textsc{Y} & \textsc{Z} & & & \\
+	\hline
+	\hline
+	1024 & 1024 & 1 & 1 & 1 & 1 & 1024 & 4.2685s  & 0.50 \\ 
+	\hline 
+	512 & 512 & 1 & 2 & 2 & 1 & 1024 & 1.0868s  & 1.98 \\ 
+	\hline 
+	256 & 256 & 1 & 4 & 4 & 1 & 1024 & 0.2818s  & 7.62 \\ 
+	\hline 
+	128 & 128 & 1 & 8 & 8 & 1 & 1024 & 0.0830s  & 25.88 \\ 
+	\hline 
+	64 & 64 & 1 & 16 & 16 & 1 & 1024 & 0.0474s  & 45.27 \\ 
+	\hline 
+	32 & 32 & 1 & 32 & 32 & 1 & 1024 & 0.0549s  & 39.13 \\ 
+	\hline 
+	
+\end{tabular}
+
+
+\paragraph{Nvidia Tesla K20X: Matrix-Multiplikation Dimension 1024 x 1024}\hfill\\
+\begin{tabular}{|c|c|c||c|c|c||c|r|r|}
+	\hline
+	\multicolumn{3}{|c||}{Griddim} & \multicolumn{3}{|c||}{Blockdim} & \textsc{Dimension} & \textsc{Runtime} & \textsc{GFLOP/s} \\
+	\hline
+	\textsc{X} & \textsc{Y} & \textsc{Z} & \textsc{X} & \textsc{Y} & \textsc{Z} & & & \\
+	\hline
+	\hline
+	1024 & 1024 & 1 & 1 & 1 & 1 & 1024 & 1.3625s  & 1.58 \\ 
+	\hline 
+	512 & 512 & 1 & 2 & 2 & 1 & 1024 & 0.3714s  & 5.78 \\ 
+	\hline 
+	256 & 256 & 1 & 4 & 4 & 1 & 1024 & 0.1029s  & 20.13 \\ 
+	\hline 
+	128 & 128 & 1 & 8 & 8 & 1 & 1024 & 0.0357s  & 60.14 \\ 
+	\hline 
+	64 & 64 & 1 & 16 & 16 & 1 & 1024 & 0.0241s  & 89.15 \\ 
+	\hline 
+	32 & 32 & 1 & 32 & 32 & 1 & 1024 & 0.0227s  & 94.51 \\ 
+	\hline 
+
+\end{tabular}
+

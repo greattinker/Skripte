@@ -1,0 +1,136 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Allgemeine Einf\IeC {\"u}hrung}{3}{chapter.0.1}
+\contentsline {section}{\numberline {1.1}Qualifikationsziele}{3}{section.0.1.1}
+\contentsline {section}{\numberline {1.2}Literatur}{3}{section.0.1.2}
+\contentsline {part}{\numberline {I}VLSI-Systementwurf}{4}{part.1}
+\contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung}{5}{chapter.1.1}
+\contentsline {section}{\numberline {1.1}Themenschwerpunkte}{5}{section.1.1.1}
+\contentsline {section}{\numberline {1.2}Inhalte der Lehrveranstaltung}{6}{section.1.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Inhalte der Vorlesung}{6}{subsection.1.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Inhalte des Praktikums}{6}{subsection.1.1.2.2}
+\contentsline {section}{\numberline {1.3}Klassifikation von ICs}{6}{section.1.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Zwei Sichten}{6}{subsection.1.1.3.1}
+\contentsline {paragraph}{Herstellungssicht:}{6}{section*.2}
+\contentsline {paragraph}{Entwurfssicht:}{6}{section*.3}
+\contentsline {subsection}{\numberline {1.3.2}Anwenderprogrammierbare IC}{8}{subsection.1.1.3.2}
+\contentsline {paragraph}{Merkmale:}{8}{section*.4}
+\contentsline {paragraph}{Anwendung:}{8}{section*.5}
+\contentsline {subsection}{\numberline {1.3.3}Hardwareprogrammierung}{8}{subsection.1.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Programmiertechnologien}{8}{subsection.1.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Klassifikation Anwenderprogrammierbare IC}{11}{subsection.1.1.3.5}
+\contentsline {chapter}{\numberline {2}Schaltkreisentwurf}{12}{chapter.1.2}
+\contentsline {section}{\numberline {2.1}Abstraktionsebenen und Sichten}{12}{section.1.2.1}
+\contentsline {paragraph}{Ebenen des Entwurfs:}{12}{section*.6}
+\contentsline {paragraph}{Sichten des Entwurfs:}{12}{section*.7}
+\contentsline {subsection}{\numberline {2.1.1}Abstraktionsebenen}{12}{subsection.1.2.1.1}
+\contentsline {paragraph}{Systemebene:}{12}{section*.8}
+\contentsline {paragraph}{Algorithmische Ebene:}{12}{section*.9}
+\contentsline {paragraph}{Register-Transfer Ebene:}{12}{section*.10}
+\contentsline {paragraph}{Logikebene:}{12}{section*.11}
+\contentsline {paragraph}{Schaltkreiseben:}{12}{section*.12}
+\contentsline {subsection}{\numberline {2.1.2}Sichten}{12}{subsection.1.2.1.2}
+\contentsline {paragraph}{Verhaltenssicht:}{12}{section*.13}
+\contentsline {paragraph}{Struktursicht:}{12}{section*.14}
+\contentsline {paragraph}{Geometriesicht:}{12}{section*.15}
+\contentsline {paragraph}{Testsicht:}{12}{section*.16}
+\contentsline {subsection}{\numberline {2.1.3}Y-Diagramm nach Gajski}{13}{subsection.1.2.1.3}
+\contentsline {section}{\numberline {2.2}Entwurfsablauf}{14}{section.1.2.2}
+\contentsline {paragraph}{Allgemein:}{14}{section*.17}
+\contentsline {paragraph}{Top-Down-Strategie:}{14}{section*.18}
+\contentsline {paragraph}{Bottom-Up-Strategie:}{14}{section*.19}
+\contentsline {paragraph}{$\Rightarrow $ Meet-in-the-Middle}{14}{section*.20}
+\contentsline {paragraph}{Entwurfsschritt:}{14}{section*.21}
+\contentsline {paragraph}{Syntheseschritt:}{14}{section*.22}
+\contentsline {paragraph}{Analyseschritt:}{14}{section*.23}
+\contentsline {section}{\numberline {2.3}Entwurfsstile}{15}{section.1.2.3}
+\contentsline {subsubsection}{Gegen\IeC {\"u}berstellung Entwurfsalternativen}{15}{section*.24}
+\contentsline {subsection}{\numberline {2.3.1}Full-Custom Entwurf}{16}{subsection.1.2.3.1}
+\contentsline {paragraph}{Merkmale:}{16}{section*.25}
+\contentsline {paragraph}{Anwendung:}{16}{section*.26}
+\contentsline {subsubsection}{Beispiel: Inverter}{16}{section*.27}
+\contentsline {subsection}{\numberline {2.3.2}Standardzellenentwurf}{17}{subsection.1.2.3.2}
+\contentsline {paragraph}{Merkmale:}{17}{section*.28}
+\contentsline {paragraph}{Anwendung:}{17}{section*.29}
+\contentsline {subsubsection}{Konventionelle Architektur vs. Strukturierte Architektur}{17}{section*.30}
+\contentsline {subsection}{\numberline {2.3.3}Maskenprogrammierbare Gate Arrays}{18}{subsection.1.2.3.3}
+\contentsline {paragraph}{Merkmale:}{18}{section*.31}
+\contentsline {paragraph}{Anwendung:}{18}{section*.32}
+\contentsline {subsubsection}{MPGA}{18}{section*.33}
+\contentsline {subsection}{\numberline {2.3.4}Anwenderprogrammierbare IC}{19}{subsection.1.2.3.4}
+\contentsline {paragraph}{Merkmale:}{19}{section*.34}
+\contentsline {paragraph}{Anwendung:}{19}{section*.35}
+\contentsline {subsubsection}{Hardwareprogrammierung}{19}{section*.36}
+\contentsline {subsubsection}{Klassifikation Anwenderprogrammierbare IC}{20}{section*.37}
+\contentsline {subsubsection}{CPLD}{20}{section*.38}
+\contentsline {subsubsection}{CPLD-Funktionsblock}{20}{section*.39}
+\contentsline {subsubsection}{PLA}{21}{section*.40}
+\contentsline {subsubsection}{Makrozellen + I/O-Block}{21}{section*.41}
+\contentsline {paragraph}{Konfiguration der Makrozelle:}{21}{section*.42}
+\contentsline {paragraph}{Steuerung des I/O-Blocks:}{21}{section*.43}
+\contentsline {subsubsection}{FPGA-Architektur}{22}{section*.44}
+\contentsline {section}{\numberline {2.4}Entwurfswerkzeuge}{22}{section.1.2.4}
+\contentsline {chapter}{\numberline {3}Automaten}{23}{chapter.1.3}
+\contentsline {section}{\numberline {3.1}Automatendarstellung}{23}{section.1.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Betrachtungsweisen}{23}{subsection.1.3.1.1}
+\contentsline {paragraph}{Verschiedene Sichten/Semantik:}{23}{section*.45}
+\contentsline {subsubsection}{Bin\IeC {\"a}rz\IeC {\"a}hler mod 4 mit Trigger X und \IeC {\"U}bertrag Y}{23}{section*.46}
+\contentsline {subsection}{\numberline {3.1.2}Automatengraphen}{23}{subsection.1.3.1.2}
+\contentsline {paragraph}{Endlicher Automat:}{23}{section*.47}
+\contentsline {paragraph}{Synchron getakteter Automat:}{23}{section*.48}
+\contentsline {subsubsection}{Notation}{24}{section*.49}
+\contentsline {subsubsection}{Grafische Darstellung}{24}{section*.50}
+\contentsline {paragraph}{$\Rightarrow $ Pr\IeC {\"u}fung auf:}{24}{section*.51}
+\contentsline {subsubsection}{Getaktete Automaten}{24}{section*.52}
+\contentsline {paragraph}{Theoretische Informatik}{24}{section*.53}
+\contentsline {paragraph}{Technische Informatik}{24}{section*.54}
+\contentsline {paragraph}{Beispiel - Taktzustandsgesteuertes D-Flip-Flop (Latch)}{24}{section*.55}
+\contentsline {paragraph}{Beispiel - Taktflankengesteuertes D-Flip-Flop}{25}{section*.56}
+\contentsline {paragraph}{Beispiel - Taktflankengesteuertes D-Flip-Flop}{25}{section*.57}
+\contentsline {subsection}{\numberline {3.1.3}SM-Charts}{25}{subsection.1.3.1.3}
+\contentsline {subsubsection}{Verzweigungen}{26}{section*.58}
+\contentsline {paragraph}{Weitere Merkmale:}{26}{section*.59}
+\contentsline {part}{\numberline {II}Entwurf eingebetteter Systeme}{27}{part.2}
+\contentsline {part}{\numberline {III}Parallelverarbeitung}{28}{part.3}
+\contentsline {part}{\numberline {IV}Appendix}{29}{part.4}
+\contentsline {chapter}{\numberline {1}VLSI-Systementwurf Praktikum}{30}{chapter.4.1}
+\contentsline {section}{\numberline {1.1}Aufgabe 1 - Bin\IeC {\"a}r-Dekoder}{30}{section.4.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Entwurf}{30}{subsection.4.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Auswertung}{31}{subsection.4.1.1.2}
+\contentsline {paragraph}{Ressourcenbedarf}{31}{section*.60}
+\contentsline {section}{\numberline {1.2}Aufgabe 2 - Hamming-Distanz}{31}{section.4.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Entwurf}{31}{subsection.4.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Auswertung}{31}{subsection.4.1.2.2}
+\contentsline {paragraph}{Ressourcenbedarf}{31}{section*.61}
+\contentsline {section}{\numberline {1.3}Aufgabe 3 - Modulo-n-Z\IeC {\"a}hler}{32}{section.4.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Entwurf}{32}{subsection.4.1.3.1}
+\contentsline {paragraph}{Z\IeC {\"a}hler}{32}{section*.62}
+\contentsline {paragraph}{Schieber}{33}{section*.63}
+\contentsline {subsection}{\numberline {1.3.2}Auswertung}{33}{subsection.4.1.3.2}
+\contentsline {paragraph}{Ressourcenbedarf}{33}{section*.64}
+\contentsline {section}{\numberline {1.4}Aufgabe 4 - Entprell-Automat}{34}{section.4.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Entwurf}{34}{subsection.4.1.4.1}
+\contentsline {paragraph}{State-Machine-Charts}{34}{section*.65}
+\contentsline {paragraph}{LED}{34}{section*.66}
+\contentsline {paragraph}{Entprellung}{34}{section*.67}
+\contentsline {paragraph}{Zaehler}{35}{section*.68}
+\contentsline {paragraph}{Kopplung}{35}{section*.69}
+\contentsline {subsection}{\numberline {1.4.2}Auswertung}{35}{subsection.4.1.4.2}
+\contentsline {paragraph}{Ressourcenbedarf}{35}{section*.70}
+\contentsline {section}{\numberline {1.5}Aufgabe 5 - HALLO-Anzeige}{36}{section.4.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Entwurf}{36}{subsection.4.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Auswertung}{37}{subsection.4.1.5.2}
+\contentsline {paragraph}{Ressourcenbedarf}{37}{section*.71}
+\contentsline {section}{\numberline {1.6}Aufgabe 6 - Stoppuhr}{38}{section.4.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Entwurf}{38}{subsection.4.1.6.1}
+\contentsline {paragraph}{State-Machine-Charts}{39}{section*.72}
+\contentsline {paragraph}{Kopplung}{40}{section*.73}
+\contentsline {subsection}{\numberline {1.6.2}Auswertung}{40}{subsection.4.1.6.2}
+\contentsline {paragraph}{Ressourcenbedarf}{40}{section*.74}
+\contentsline {section}{\numberline {1.7}Anhang}{40}{section.4.1.7}
+\contentsline {subsection}{\numberline {1.7.1}01-Aufgabe Code}{40}{subsection.4.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}02-Aufgabe Code}{41}{subsection.4.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}03-Aufgabe Code}{42}{subsection.4.1.7.3}
+\contentsline {subsection}{\numberline {1.7.4}04-Aufgabe Code}{43}{subsection.4.1.7.4}
+\contentsline {subsection}{\numberline {1.7.5}05-Aufgabe Code}{46}{subsection.4.1.7.5}
+\contentsline {subsection}{\numberline {1.7.6}06-Aufgabe Code}{49}{subsection.4.1.7.6}
+\contentsline {chapter}{\numberline {2}Entwurf eingebetteter Systeme Praktikum}{55}{chapter.4.2}

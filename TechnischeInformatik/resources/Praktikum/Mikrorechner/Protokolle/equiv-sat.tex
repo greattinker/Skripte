@@ -1,0 +1,31 @@
+\section{Äquivalenzprüfung durch SAT-Solver}
+
+\subsection{Voraussetzungen}
+\begin{itemize}
+	\item Schaltkreise müssen gleichviele Eingänge bzw. Ausgänge besitzen
+	\item falls in einem Schaltkreis ein Eingang bzw. Ausgang vorkommt, muss ein gleichnamiger Eingang bzw. Ausgang auch in den anderen Schaltkreisen vorkommen
+	\item es können beliebig viele Schaltkreise verglichen werden, falls einer nicht äquivalent mit einem anderen ist, wird \code{false} zurückgegeben
+	\item ist kein Schaltkreis definiert, wird \code{false} zurückgegeben
+	\item ist nur ein Schaltkreis definiert, wird \code{true} zurückgegeben
+
+\end{itemize}
+
+
+\subsection{Vorgehen}
+\begin{enumerate}
+	\item es wird über alle Schaltkreise iteriert
+	
+	\begin{enumerate}
+		\item die KNFs aller Gatter werden ermittelt
+		\item falls der Schaltkreis nicht der erste ist, werden seine Eingänge mit denen des ersten Schaltkreises verbunden d.h. die Identität wird duch eine KNF dargestellt
+		\item falls der Schaltkreis nicht der erste ist, werden seine Ausgänge XOR mit denen des ersten Schaltkreises verbunden d.h. als KNF dargestellt
+	\end{enumerate}
+	
+	\item alle Ausgänge der XOR-Verbindungen werden OR verküpft, d.h. es wird eine Klausel gebildet, die alle diese Ausgänge enthält
+	\subitem lässt sich eine dieser Variablen auf \code{true} abbilden (die These ist SATISFIABLE), dann sind die definierten Schaltkreise nicht äquivalent 
+	\item gesamte KNF wird in Datei geschrieben und der SATsolver gestartet
+\end{enumerate}
+
+
+\subsection{Implementierung}
+Der verwendete SAT-Solver ist miniSAT in der Version 1.14 als Binary. Die generierten KNF-Klauseln werden in eine Datei mit dem Namen cnf geschrieben und anschliesend vom SAT-Solver gelesen. Die jeweiligen Gatter-Klassen sind so implementiert, dass sie ihre Funktion als KNF darstellen können. Die Klasse \code{Solver} enthält einen Zähler für die Benennung der KNF-Variablen.

@@ -1,0 +1,45 @@
+\section{Matrizen-Multiplikation mit MPI}
+
+%\subsection{Aufgabenstellung}
+%Für die Multiplikation zweier nxn-Matrizen soll ein möglichst effizienter Algorithmus
+%gefunden werden. Nutzen Sie dazu den vorgegebenen Quelltext, der bereits die
+%Basisvariante und eine Zeitmessroutine enthält. Diese Basisvariante sollen Sie
+%optimieren – zunächst ohne zusätzliche Compiler-Flags.
+\paragraph{Submatrizen}
+Die Ergebnis Matrix wird in Submatrizen unterteilt, die jeweils durch einen eigenen Prozess berechnet werden. Diese Blöcke umfassen jeweils \code{SUBDIMX} $*$ \code{SUBDIMY} Elemente.
+\lstinputlisting[caption={matmul1-mpi.c - Matrix-Dimension und X- bzw. Y-Blöcke}, language=C, linerange=12-16, firstnumber=12]{../matmul1-mpi.c}
+
+
+\subsection{Implementierung}
+\paragraph{Gruppen}
+Jeder Prozess der Matrizenberechnung wird zwei MPI-Gruppen - einer Gruppe-X und einer Gruppe-Y, die angibt welchen Teil der B-Matrix bzw. der A-Matrix der Prozess benötigt - zugeteilt. 
+
+\label{lst:a6-kernel}
+\lstinputlisting[caption={matmul1-mpi.c - X-Gruppen}, language=C, linerange=77-78, firstnumber=77]{../matmul1-mpi.c}
+\lstinputlisting[caption={matmul1-mpi.c - Y-Gruppen}, language=C, linerange=97-98, firstnumber=97]{../matmul1-mpi.c}
+
+\paragraph{Root-Prozess}
+\begin{itemize}
+\item Initialisiert die Matrizen A und B mit zufälligen Werten. 
+\item Generiert Submatrizen von A und B, in Abhängigkeit von \code{PY} bzw. \code{PX}. 
+\item verteilt Submatrizen von A und B an die richtigen Prozesse
+\item Sammelt Ergebnisse von anderen Prozessen ein
+\item Berechnet eigenen Anteil der Ergebnismatrix 
+\end{itemize}
+\label{lst:a6-init}
+\lstinputlisting[caption={matmul1-mpi.c - Initialisierung von Matrizen A und B}, language=C, linerange=107-108, firstnumber=107]{../matmul1-mpi.c}
+\lstinputlisting[caption={matmul1-mpi.c - Bestimmen der Submatrizen von A}, language=C, linerange=126-134, firstnumber=126]{../matmul1-mpi.c}
+\lstinputlisting[caption={matmul1-mpi.c - Bestimmen der Submatrizen von B}, language=C, linerange=116-124, firstnumber=116]{../matmul1-mpi.c}
+\lstinputlisting[caption={matmul1-mpi.c - Verteilen der Submatrizen von A an die jeweiligen Y-Gruppen}, language=C, linerange=139-141, firstnumber=139]{../matmul1-mpi.c}
+\lstinputlisting[caption={matmul1-mpi.c - Verteilen der Submatrizen von B an die jeweiligen X-Gruppen}, language=C, linerange=143-145, firstnumber=143]{../matmul1-mpi.c}
+\lstinputlisting[caption={matmul1-mpi.c - Einsammeln der Ergebnisse}, language=C, linerange=196-200, firstnumber=196]{../matmul1-mpi.c}
+
+
+\paragraph{Berechnung von Teil-Ergebnismatrizen}
+Alle Prozesse berechnen einen Anteil der Ergebnismatrix und senden ihr Ergebnis zurück an den Root-Prozess.
+\label{lst:a6-init}
+\lstinputlisting[caption={matmul1-mpi.c - Gruppen-Ids und weitergabe der A. bzw. B-Teilmatrizen an Rest der jeweiligen Gruppe}, language=C, linerange=155-165, firstnumber=155]{../matmul1-mpi.c}
+\lstinputlisting[caption={matmul1-mpi.c - Berechnung der Teil-Ergebnismatrix}, language=C, linerange=170-182, firstnumber=170]{../matmul1-mpi.c}
+
+\lstinputlisting[caption={matmul1-mpi.c - Berechnete Teil-Ergebnismatrix an den Root-Prozess zurücksenden}, language=C, linerange=190-190, firstnumber=190]{../matmul1-mpi.c}
+

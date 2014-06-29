@@ -1,0 +1,53 @@
+\section{Parallelisierte Matrix-Multiplikation}
+
+%\subsection{Aufgabenstellung}
+%Für die Multiplikation zweier nxn-Matrizen soll ein möglichst effizienter Algorithmus
+%gefunden werden. Nutzen Sie dazu den vorgegebenen Quelltext, der bereits die
+%Basisvariante und eine Zeitmessroutine enthält. Diese Basisvariante sollen Sie
+%optimieren – zunächst ohne zusätzliche Compiler-Flags.
+
+\subsection{Implementierung}
+\paragraph{Kernel}
+Der auf dem GPU auszuführende Kernel durchläuft für ein Element (i,j) der Ziel-Matrix C, die Zeile i der Matrix A und die Spalte j der Matrix B. Das Produkt der jeweiligen Elemente wird zu dem Element (i,j) von C addiert. 
+
+\label{lst:a6-kernel}
+\lstinputlisting[caption={a6.cu - Kernel}, language=C, linerange=21-42, firstnumber=21]{../a6.cu}
+
+\paragraph{Speicher}
+Speicher für die durch Arrays repräsentierten Matritzen muss auf dem normalen RAM und auch auf dem RAM der GPU allokiert werden.
+\label{lst:a6-init}
+\lstinputlisting[caption={a6.cu - Speicherallokation}, language=C, linerange=58-67, firstnumber=58]{../a6.cu}
+
+\paragraph{Matrizen-Initialisierung}
+Matritzen A und B werden mir Zufallswerten initialisiert. Die Ergebnis-Matrix C wird mit Null-Werten initialisiert.
+\label{lst:a6-init}
+\lstinputlisting[caption={a6.cu - Matrizen-Initialisierung}, language=C, linerange=70-73, firstnumber=70]{../a6.cu}
+
+\paragraph{Kopieren in den GPU-RAM}
+Die initialisierten Matritzen A, B und C werden in den RAM der GPU kopiert.
+\label{lst:a6-init}
+\lstinputlisting[caption={a6.cu - Matrizen-Kopieren}, language=C, linerange=75-77, firstnumber=75]{../a6.cu}
+
+
+\paragraph{Bestimmen der Grid- und Block-Größen}
+Definition der zu verwendenden Block- und Gridgrößen. 
+\label{lst:a6-init}
+\lstinputlisting[caption={a6.cu - Grid- und Block-Größen-Definition}, language=C, linerange=8-14, firstnumber=8]{../a6.cu}
+\label{lst:a6-init}
+\lstinputlisting[caption={a6.cu - Grid- und Block-Größen}, language=C, linerange=80-81, firstnumber=80]{../a6.cu}
+
+
+\paragraph{Ausführen des Kernles auf Matritzen im GPU-RAM}
+Aufruf des parallel auszufürenden Kernels.
+\label{lst:a6-init}
+\lstinputlisting[caption={a6.cu - Kernel-Aufruf}, language=C, linerange=88-89, firstnumber=88]{../a6.cu}
+
+\paragraph{Zurückkopieren der Ergebnismatrix}
+Die fertig berechnete Ergebnismatrix wird aus dem GPU-RAM zurückgeholt.
+\label{lst:a6-init}
+\lstinputlisting[caption={a6.cu - Ergebnis-Sichern}, language=C, linerange=94-95, firstnumber=94]{../a6.cu}
+
+\paragraph{Cleanup}
+Nicht mehr benötigte Speicherbereiche werden wieder freigegeben.
+\label{lst:a6-init}
+\lstinputlisting[caption={a6.cu - Freigabe des Speichers}, language=C, linerange=132-136, firstnumber=132]{../a6.cu}

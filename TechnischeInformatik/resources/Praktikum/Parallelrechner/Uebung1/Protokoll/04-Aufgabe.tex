@@ -1,0 +1,16 @@
+\section{Aufgabe 4 - FLOP/s}
+Intel E5-2690 Sandy Bridge \\\\
+Maximaler (Daten-)Cache per Core: 20MB L3 + 256KB L2 + 32KB L1 = 20,35 MB \\\\
+FLOP/s je Kern (Normal Clock): $2,9GHz\;*\;\frac{8\; FLOPs}{cycle}\; = \;23,2 \;GFLOP/s\; per\; Core$ \\\\
+Notwendige Speicherbandbreite (für einen Kern): $23,2 \;GFLOP/s * 32 \frac{Bit}{FLOP} \;=\; 92,8 \;GB/s$ \\\\
+FLOP/s je Kern (Maximum Clock): $3,8GHz\;*\;\frac{8\; FLOPs}{cycle}\; = \;30,4 \;GFLOP/s \; per \; Core$ \\\\
+Notwendige Speicherbandbreite (für einen Kern): $30,4 \;GFLOP/s * 32 \frac{Bit}{FLOP} \;=\; 121,6\; GB/s$ \\\\
+L1-Cache: 32KB Daten, 4 Takte Latenz, 
+Tatsächliche Speicherbandbreite (ein Kanal, DDR3-1600): $1600MT/s\; *\; 8 Bit\; = \;12,8 \;GB/s$
+\\\\
+Verbrauchter Speicher (3 Matritzen mit jeweils 1 Mio Einträgen): $3 * 1000000 * 32 = 12MB$ \\\\
+%Obwohl der Prozessor eine weitaus höhere Anzahl an Floating Point-Operationen pro Sekunde zulassen würde, hat der Speicher-Bus nicht ausreichend MT/s. 
+Dass maximal in etwa ein Viertel (ca. 6 GFLOP/s) der möglichen 23,2 GFLOP/s erreicht wird, liegt an der Cache-Latenz. Da der benötigte Speicherplatz die Kapazität der Caches nicht überschreitet, müssen keine Daten aus dem RAM geladen werden. \\
+Jedoch können pro Takt nur 4 Floats aus dem L1,2 Floats aus L2 und 1 Float aus L3 geladen werden, was maximal 7 Floats per Takt liefert (bei einer idealen Verteilung). Um tatsächlich alle FPUs des Kerns auszulasten, müssten pro Operand mehrere Operationen ausgeführt werden.
+\\\\
+

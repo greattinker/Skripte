@@ -1,0 +1,12 @@
+VORSICHT:
+- Nicht ganz Verilog konform, da ich mir das Auflisten der Inputs/Outputs in "module XYZ ()" gespart habe
+- Ebenfalls werte ich die zweite Beschreibung des Gatters nicht aus, vgl. Gatter15_100.v
+  -> Beispiel (9 Zeile in File): buf BUF1 (N16,N9);
+  -> laut Spezifierzung müsste dieses Gatter aber BUF1_XYZ heißen, wobei XYZ ein Integer darstellt und hochzählt. Da ich in meiner Parsing Routine diesen Wert nich auslese, 
+     habe ich ihn auch nicht erstellt...
+
+- Immer 10 Outputs
+- Ordner gibt jeweils die Anzahl der Inputs an
+- Filename: *_XXXX, XXXX steht für Anzahl der Gatter
+
+Fröhliches simulieren!!! :-)

@@ -1,0 +1,86 @@
+\chapter{Automaten}
+
+\section{Automatendarstellung}
+
+\subsection{Betrachtungsweisen}
+	\paragraph{Verschiedene Sichten/Semantik:}
+	\begin{itemize}
+		\item Zustandsübergangsdiagramm (state diagram)
+			\begin{itemize}
+				\item Vernetzung von Zuständen
+				\item Beispiele: UML-Zustandsdiagramm, Automatengrpahen, SM Charts, GRAFCET, Sequential Function Charts (SFC)
+			\end{itemize}
+		\item Ablaufdiagramm (flow chart)
+			\begin{itemize}
+				\item Vernetzung von Prozessen
+				\item Zustand ergibt sich aus der Verkettung aller Variablenzustände
+				\item Beispiele: UML-Aktivitätsdiagramm, Programmablaufplan (PAP)
+			\end{itemize}
+	\end{itemize}
+	
+	\subsubsection{Binärzähler mod 4 mit Trigger X und Übertrag Y}	
+		\begin{center}
+			\includegraphics[page=4, width=0.6\linewidth, trim=35mm 27mm 30mm 58mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+	
+\subsection{Automatengraphen}	
+	\begin{center}
+		\includegraphics[page=5, width=0.8\linewidth, trim=35mm 67mm 30mm 58mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+	\end{center}
+	\paragraph{Endlicher Automat:} Menge der möglichen Eingabezeichen, Ausgabezeichen und inneren Zustände ist endlich ...
+	\paragraph{Synchron getakteter Automat:} Zustandsübergänge aller Speicherglieder erfolgen gleichzeitig, synchron zu einem Taktsignal
+	
+	\subsubsection{Notation}
+		\begin{center}
+			\includegraphics[page=6, width=0.65\linewidth, trim=35mm 37mm 30mm 58mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+	\subsubsection{Grafische Darstellung}
+		\begin{center}
+			\includegraphics[page=7, width=0.65\linewidth, trim=35mm 39mm 30mm 58mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		\paragraph{$\Rightarrow$ Prüfung auf:} Vollständigkeit und Widerspruchfreiheit
+	
+	\subsubsection{Getaktete Automaten}
+		\paragraph{Theoretische Informatik}
+		\begin{itemize}
+			\item Verarbeitung von EIngabezeichen sofern vorhanden
+			\item Jedes Zeichen in der Eingabe wird einmalig verarbeitet
+		\end{itemize} 
+		\paragraph{Technische Informatik}\hfill\\
+		Taktung des Automaten mit einem Taktsignal $\rightarrow$ Abtatstung der Eingabe\\
+		Konsequenzen:
+		\begin{itemize}
+			\item Zeichen für \grqq keine Eingabe \grqq erforderlich
+			\item Abtastung \grqq derselben Eingabe \grqq in aufeinanderfolgenden Takten möglich
+		\end{itemize} 
+		$\Rightarrow$ Korrekte Modellierung des Taktsignals erforderlich
+	
+		\paragraph{Beispiel - Taktzustandsgesteuertes D-Flip-Flop (Latch)}\hfill\\
+		(Taktsignal C als Eingabe) 
+		\begin{center}
+			\includegraphics[page=9, width=0.65\linewidth, trim=35mm 50mm 30mm 80mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+	
+		\paragraph{Beispiel - Taktflankengesteuertes D-Flip-Flop}\hfill\\
+		(Taktsignal C als Eingabe) 
+		\begin{center}
+			\includegraphics[page=10, width=0.65\linewidth, trim=35mm 26mm 30mm 80mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+	
+		\paragraph{Beispiel - Taktflankengesteuertes D-Flip-Flop}\hfill\\
+		(Definition: Zustandsübergang nur bei taktflanke) 
+		\begin{center}
+			\includegraphics[page=11, width=0.65\linewidth, trim=35mm 50mm 30mm 80mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+	
+\subsection{SM-Charts}
+		\begin{center}
+			\includegraphics[page=12, width=0.65\linewidth, trim=35mm 30mm 30mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+		\subsubsection{Verzweigungen}
+			\paragraph{Weitere Merkmale:}
+			\begin{itemize}
+				\item Selbstdefinierte Abkürzungen für komplexe Ausdrücke üblich
+			\end{itemize}
+	

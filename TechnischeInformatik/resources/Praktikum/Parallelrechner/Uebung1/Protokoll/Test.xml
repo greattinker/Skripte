@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?latexml searchpaths=".,//media/Daten/Studium/5-Semester/Einführung in die Technische Informatik/Parallelrechner/Übung/Uebung1/Protokoll/"?>
+<?latexml RelaxNGSchema="LaTeXML"?>
+<document xmlns="http://dlmf.nist.gov/LaTeXML">
+  <ERROR class="undefined">\section</ERROR>
+  <para>
+    <p>Aufgabe 1 - Code-Optimierung</p>
+  </para>
+  <!-- %\subsection{Aufgabenstellung} 
+     %FÃ¼r die Multiplikation zweier nxn-Matrizen soll ein mÃ¶glichst effizienter Algorithmus
+     %gefunden werden. Nutzen Sie dazu den vorgegebenen Quelltext, der bereits die
+     %Basisvariante und eine Zeitmessroutine enthÃ¤lt. Diese Basisvariante sollen Sie
+     %optimieren â zunÃ¤chst ohne zusÃ¤tzliche Compiler-Flags.-->
+  <ERROR class="undefined">\label</ERROR>
+  <para>
+    <p>lst:matmul0-orig
+[caption=matmul0.c-Original, language=C, linerange=47-58, firstnumber=47]../matmul0-original.c
+<ERROR class="undefined">\lstinputlisting</ERROR></p>
+  </para>
+  <ERROR class="undefined">\subsection</ERROR>
+  <para>
+    <p>Optimierungen
+enumerate
+Speichern öfters genutzter, zusammengesetzter Werte 
+
+i_mult_dim = i * dim; 
+i_mult_dim_add_k = i_mult_dim + k; 
+k_mult_dim = k * dim;
+
+<ERROR class="undefined">\begin</ERROR><ERROR class="undefined">\\</ERROR><ERROR class="undefined">\code</ERROR><ERROR class="undefined">\\</ERROR><ERROR class="undefined">\\</ERROR></p>
+  </para>
+  <para>
+    <p>halten des Wertes einer Matrix für Multiplikation (loop-interchange)
+ A[ i_mult_dim_add_k ] 
+<ERROR class="undefined">\\</ERROR><ERROR class="undefined">\code</ERROR><!-- %**** 01-Aufgabe.tex Line 25 **** --></p>
+  </para>
+</document>

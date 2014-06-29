@@ -1,0 +1,122 @@
+\documentclass[10pt,german,a4paper]{scrreprt}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc} 
+\usepackage{lmodern}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{pdfpages}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref} 
+\usepackage{float}		
+\usepackage{relsize}		
+\usepackage{euscript}	
+
+
+\hypersetup{
+	pdfborder=0
+}
+
+\geometry{a4paper,left=1cm,right=1cm, top=2cm, bottom=2cm} 
+
+\def \Path {/media/Daten/Studium/Skripte/TechnischeInformatik}
+\makeatletter
+	\@addtoreset{chapter}{part}
+\makeatother
+
+
+
+\pagestyle{fancy}
+\lhead{Skript Technische Informatik}
+\chead{}
+\rhead{\leftmark}
+\lfoot{Christian Kroh \texttt{(s1428123)}}
+\cfoot{}
+\rfoot{\thepage}
+
+
+
+\lstset{%
+    columns=fullflexible,
+    aboveskip=5pt,
+    belowskip=10pt,
+    basicstyle=\small\ttfamily,
+    numbers=left,
+    stepnumber=1, 
+    numbersep=13pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    xleftmargin=20pt,
+    xrightmargin=10pt,
+    framesep=5pt,
+    framerule=3pt,
+    frame=leftline,
+    tabsize=2,
+    breaklines=true,
+    breakatwhitespace=true,
+}
+
+\renewcommand*{\chapterpagestyle}{fancy}
+
+\newcommand{\insertrep}[1]{%
+	\hspace*{-2.4cm}
+	\fbox{\includegraphics[page=1,scale=0.8]{#1}}
+	\includepdf[scale=0.8,pages=2-,frame]{#1}
+}
+
+\title{Einführung in die Technische Informatik\\Skript}
+\subtitle{In der Hoffnung, dass es was nützt ...}
+\author{Christian Kroh}
+\date{\today{}, Dresden}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\chapter{Allgemeine Einführung}
+\section{Qualifikationsziele}
+Die Studierenden kennen Systemarchitekturen und Modellierungsparadigmen
+von VLSI-Systemen.\\
+Sie sind in der Lage Beschreibungen von Hardware-Systemen durch
+Simulation zu verifizieren und mithilfe typischer Werkzeuge in reale
+Schaltungen umzuwandeln.\\
+Sie können den Ressourcenbedarf, das Zeitverhalten und die Verlustleistung abschätzen oder evaluieren und daraus Entwurfsentscheidungen ableiten.
+\section{Literatur}
+\begin{itemize}
+\item F. Kesel und R. Bartholomä: Entwurf von digitalen Schaltungen und
+	Systemen mit HDLs und FPGAs, Oldenbourg Wissenschaftsverlag,
+	ISBN 978-3-486-58976-4.
+\item H.-D. Wuttke und K. Henke: Schaltsysteme – Eine automatenorientierte
+	Einfürung, Pearson Studium, ISBN 3-8273-7035-3.
+\item H. M. Lipp und J. Becker: Grundlagen der Digitaltechnik,
+Oldenbourg Wissenschaftsverlag, ISBN 978-3-486-59747-9.
+
+\end{itemize}
+
+
+
+\newpage
+\part{VLSI-Systementwurf}
+\newpage
+\input{\Path/VLSI/00-VLSI}
+
+\part{Entwurf eingebetteter Systeme}
+\newpage
+%\input{../Mikrorechner/Skript/00-Mikrorechner}
+
+
+\part{Parallelverarbeitung}
+\newpage
+%\input{../Parallelrechner/Skript/00-Parallelrechner}
+
+\part{Appendix}
+\newpage
+\input{\Path/Appendix/00-Appendix}
+\end{document}

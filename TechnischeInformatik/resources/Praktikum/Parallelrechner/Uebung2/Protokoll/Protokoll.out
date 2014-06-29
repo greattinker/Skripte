@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Parallelisierte Matrix-Multiplikation}{}
+\BOOKMARK [2][-]{subsection.1.1}{Implementierung}{section.1}
+\BOOKMARK [1][-]{section.2}{Zeitmessungen}{}
+\BOOKMARK [2][-]{subsection.2.1}{Block/Grid-Definition Variante 1}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{Block/Grid-Definition Variante 2}{section.2}
+\BOOKMARK [1][-]{section.3}{Ergebnisse}{}
+\BOOKMARK [2][-]{subsection.3.1}{Variante 1: 1BLOCKDIMX Spalte in C-Matrix pro Block}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Variante 2: BLOCKDIMX * BLOCKDIMY Elemente in C-Matrix pro Block}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Ben\366tigter Speicher}{section.3}
+\BOOKMARK [2][-]{subsection.3.4}{Unterschied zwischen Varianten}{section.3}
+\BOOKMARK [2][-]{subsection.3.5}{Unterschied MPI-nutzende und sequentielle Berechnung}{section.3}
+\BOOKMARK [1][-]{section.4}{Anhang}{}
+\BOOKMARK [2][-]{subsection.4.1}{Quellcode}{section.4}

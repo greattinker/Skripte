@@ -1,0 +1,15 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Matrizen-Multiplikation mit MPI}{3}{section.1}
+\contentsline {paragraph}{Submatrizen}{3}{section*.2}
+\contentsline {subsection}{\numberline {1.1}Implementierung}{3}{subsection.1.1}
+\contentsline {paragraph}{Gruppen}{3}{section*.3}
+\contentsline {paragraph}{Root-Prozess}{3}{section*.4}
+\contentsline {paragraph}{Berechnung von Teil-Ergebnismatrizen}{4}{section*.5}
+\contentsline {section}{\numberline {2}Zeitmessungen}{5}{section.2}
+\contentsline {paragraph}{Taurus: Matrix-Multiplikation Dimension 2048 x 2048}{5}{section*.6}
+\contentsline {paragraph}{Taurus: Matrix-Multiplikation Dimension 4096 x 4096}{5}{section*.7}
+\contentsline {section}{\numberline {3}Ergebnisse}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Speedup}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Vergleich zur sequentiellen Berechnung}{5}{subsection.3.2}
+\contentsline {section}{\numberline {4}Anhang}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Quellcode}{6}{subsection.4.1}

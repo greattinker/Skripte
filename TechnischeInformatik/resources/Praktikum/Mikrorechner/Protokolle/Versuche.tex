@@ -1,0 +1,192 @@
+\chapter{Versuche}
+
+\section{1. Versuch}
+
+\begin{tabular}{|l|c|c|}
+	\hline
+	\textsc{Benchmarks} & tests/01-test/s344.bench & tests/01-test/s349.bench \\
+	\hline
+	\hline
+	\textsc{Parser} & BENCH & BENCH \\
+	\hline
+	\textsc{Inputs} & 9 & 9 \\
+	\hline
+	\textsc{DFFs} & 15 & 15 \\
+	\hline
+	\textsc{Outputs} & 11 & 11 \\
+	\hline
+	\textsc{Gatter} & 160 & 161 \\		
+	\hline
+	\textsc{Zeit in Sekunden} & 0.105102 &  0.103989 \\ 
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch SAT-Solving} & \multicolumn{2}{|c|}{äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{0.196012} \\
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch Simmulierung} & \multicolumn{2}{|c|}{nicht ausgeführt} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{ewig} \\
+	\hline
+\end{tabular}
+\\\\ 
+Zu lange Ausführungszeiten für den Simulator.
+
+\section{2. Versuch}
+
+\begin{tabular}{|l|c|c|}
+	\hline
+	\textsc{Benchmarks} & tests/02-test/s298.bench & tests/02-test/s298.bench \\
+	\hline
+	\hline
+	\textsc{Parser} & BENCH & BENCH \\
+	\hline
+	\textsc{Inputs} & 3 & 3 \\
+	\hline
+	\textsc{DFFs} & 14 & 14 \\
+	\hline
+	\textsc{Outputs} & 6 & 6 \\
+	\hline
+	\textsc{Gatter} & 119 & 119 \\		
+	\hline
+	\textsc{Zeit in Sekunden} & 0.079251 &  0.05012 \\ 
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch SAT-Solving} & \multicolumn{2}{|c|}{äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{0.096006} \\
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch Simmulierung} & \multicolumn{2}{|c|}{äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{2034.31} \\
+	\hline
+\end{tabular}
+
+\section{3. Versuch}
+
+\begin{tabular}{|l|c|c|}
+	\hline
+	\textsc{Benchmarks} & tests/03-test/s298.bench & tests/03-test/s298a.bench \\
+	\hline
+	\hline
+	\textsc{Parser} & BENCH & BENCH \\
+	\hline
+	\textsc{Inputs} & 3 & 3 \\
+	\hline
+	\textsc{DFFs} & 14 & 14 \\
+	\hline
+	\textsc{Outputs} & 6 & 6 \\
+	\hline
+	\textsc{Gatter} & 119 & 119 \\		
+	\hline
+	\textsc{Zeit in Sekunden} & 0.048399 &  0.047988 \\ 
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch SAT-Solving} & \multicolumn{2}{|c|}{nicht äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{0.100006} \\
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch Simmulierung} & \multicolumn{2}{|c|}{nicht äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{0.016245} \\
+	\hline
+\end{tabular}
+
+\section{4. Versuch}
+
+\begin{tabular}{|l|c|c|}
+	\hline
+	\textsc{Benchmarks} & tests/04-test/c17.bench & tests/04-test/c17a.bench \\
+	\hline
+	\hline
+	\textsc{Parser} & BENCH & BENCH \\
+	\hline
+	\textsc{Inputs} & 5 & 5 \\
+	\hline
+	\textsc{DFFs} & 0 & 0 \\
+	\hline
+	\textsc{Outputs} & 2 & 2 \\
+	\hline
+	\textsc{Gatter} & 6 & 6 \\		
+	\hline
+	\textsc{Zeit in Sekunden} & 0.002447 & 0.00174 \\ 
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch SAT-Solving} & \multicolumn{2}{|c|}{nicht äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{0.004} \\
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch Simmulierung} & \multicolumn{2}{|c|}{nicht äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{0.000122} \\
+	\hline
+\end{tabular}
+
+\section{5. Versuch}
+
+\begin{tabular}{|l|c|c|}
+	\hline
+	\textsc{Benchmarks} & tests/05-test/c17.bench & tests/05-test/c17a.bench \\
+	\hline
+	\hline
+	\textsc{Parser} & BENCH & BENCH \\
+	\hline
+	\textsc{Inputs} & 5 & 5 \\
+	\hline
+	\textsc{DFFs} & 0 & 0 \\
+	\hline
+	\textsc{Outputs} & 2 & 2 \\
+	\hline
+	\textsc{Gatter} & 6 & 7 \\		
+	\hline
+	\textsc{Zeit in Sekunden} & 0.002533 & 0.001905 \\ 
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch SAT-Solving} & \multicolumn{2}{|c|}{äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{0} \\
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch Simmulierung} & \multicolumn{2}{|c|}{äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{ 0.001855} \\
+	\hline
+\end{tabular} \\\\
+Veränderung: ein NAND-Gatter durch ein AND und ein NOT ersetzt. Ergebnis korrekt.
+
+
+\section{6. Versuch}
+
+\begin{tabular}{|l|c|c|}
+	\hline
+	\textsc{Benchmarks} & tests/06-test/c6288.bench & tests/05-test/c6288a.bench \\
+	\hline
+	\hline
+	\textsc{Parser} & BENCH & BENCH \\
+	\hline
+	\textsc{Inputs} & 32 & 32 \\
+	\hline
+	\textsc{DFFs} & 0 & 0 \\
+	\hline
+	\textsc{Outputs} & 32 & 32 \\
+	\hline
+	\textsc{Gatter} & 2416 & 2416 \\		
+	\hline
+	\textsc{Zeit in Sekunden} & 8.64887 & 8.4408 \\ 
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch SAT-Solving} & \multicolumn{2}{|c|}{nicht äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{17.3411} \\
+	\hline
+	\hline
+	\textsc{Äquivalenzcheck durch Simmulierung} & \multicolumn{2}{|c|}{nicht äquivalent} \\
+	\hline
+	\textsc{Zeit in Sekunden} & \multicolumn{2}{|c|}{6.16808} \\
+	\hline
+\end{tabular} \\\\
+Veränderung: 2 Gatter geändert. 

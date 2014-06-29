@@ -1,0 +1,111 @@
+\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc} 
+\usepackage{lmodern}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{pdfpages}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref} 
+\usepackage{float}
+
+\hypersetup{
+pdfborder=0
+}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{Protokoll zum Praktikum Parallelrechner Übung 1}
+\rhead{}
+\lfoot{Christian Kroh \texttt{(s1428123)}}
+\cfoot{}
+\rfoot{\thepage}
+
+\geometry{a4paper,left=2cm,right=2.5cm, top=1.5cm, bottom=2cm} 
+
+\restylefloat{table}
+
+
+%\lstdefinestyle{customc}{
+%  belowcaptionskip=1\baselineskip,
+%  breaklines=true,
+%  frame=L,
+%  xleftmargin=\parindent,
+%  language=C,
+%  showstringspaces=false,
+%  basicstyle=\footnotesize\ttfamily,
+%  keywordstyle=\bfseries\color{green!40!black},
+%  commentstyle=\itshape\color{purple!40!black},
+%  identifierstyle=\color{blue},
+%  stringstyle=\color{orange},
+%}
+
+\lstset{%
+    columns=fullflexible,
+    aboveskip=5pt,
+    belowskip=10pt,
+    basicstyle=\small\ttfamily,
+    numbers=left,
+    stepnumber=1, 
+    numbersep=13pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    xleftmargin=20pt,
+    xrightmargin=10pt,
+    framesep=5pt,
+    framerule=3pt,
+    frame=leftline,
+    tabsize=2,
+    breaklines=true,
+    breakatwhitespace=true,
+%    style=customc,
+}
+\newcommand{\code}[1]{\texttt{#1}}
+
+%\renewcommand{\thechapter}{\hspace*{-1.0em}}
+%\renewcommand{\thesection}{\hspace*{-1.0em}}
+%\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+%\renewcommand*{\chapterpagestyle}{fancy}
+
+\title{Protokoll zum Praktikum Parallelrechner - \\Übung 1}
+\subtitle{Fakultät Informatik\\TU Dresden}
+
+\author{
+	\textbf{Christian Kroh}\\ 
+	\texttt{Matrikelnummer: 3755154} \\ \texttt{Studiengang: Informatik (Diplom)} \\ \texttt{Jahrgang: 2010/2011}
+}
+
+\date{\today{}, Dresden}
+
+
+
+\begin{document}
+
+\maketitle
+
+\newpage
+\tableofcontents
+		
+\newpage
+\include{01-Aufgabe}
+	
+\newpage
+\include{02-Aufgabe}
+	
+\newpage
+%\begingroup
+%\let\clearpage\relax
+\input{03-Aufgabe}
+\input{04-Aufgabe}
+%\endgroup
+%	
+%\newpage
+%\include{Anhang}
+
+\end{document}

@@ -1,0 +1,29 @@
+\section{Aufgabe 1 - Code-Optimierung}
+
+%\subsection{Aufgabenstellung}
+%Für die Multiplikation zweier nxn-Matrizen soll ein möglichst effizienter Algorithmus
+%gefunden werden. Nutzen Sie dazu den vorgegebenen Quelltext, der bereits die
+%Basisvariante und eine Zeitmessroutine enthält. Diese Basisvariante sollen Sie
+%optimieren – zunächst ohne zusätzliche Compiler-Flags.
+
+
+\label{lst:matmul0-orig}
+\lstinputlisting[caption={matmul0.c-Original}, language=C, linerange=47-59, firstnumber=47]{../matmul0-original.c}
+
+
+\subsection{Optimierungen}
+\begin{enumerate}
+	\item Speichern öfters genutzter, zusammengesetzter Werte \\
+		\code{
+			i\_mult\_dim = i * dim; \\
+				i\_mult\_dim\_add\_k = i\_mult\_dim + k; \\
+				k\_mult\_dim = k * dim;
+			}
+				
+	\item halten des Wertes einer Matrix für Multiplikation (loop-interchange)\\
+		 \code{ A{[} i\_mult\_dim\_add\_k {]} }
+	
+\end{enumerate}
+
+\label{lst:matmul0}
+\lstinputlisting[caption={matmul0.c-optimiert}, language=C, linerange=46-63, firstnumber=46]{../matmul0.c}

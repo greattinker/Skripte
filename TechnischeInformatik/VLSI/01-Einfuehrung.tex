@@ -1,0 +1,170 @@
+\chapter{Einführung}
+\section{Themenschwerpunkte}
+	\begin{description}
+
+		\item[Verarbeitungsleistung]\hfill
+			\\\textbf{Im Vordergrund stehen:}
+			\begin{itemize}
+				\item Schnelle Verarbeitung auch einzelner Bits
+				\item Parallelität auf: \hfill
+				\begin{itemize}
+					\item Bitebene
+					\item Befehlseben
+					\item Threadebene
+					\item Prozess- und Anwendungsebene
+				\end{itemize}
+				\item dynamische Rekonfiguration
+			\end{itemize}
+			$\Rightarrow$ Erfüllung der gegebenen Anforderungen
+		
+		\item[Systemintegration]\hfill
+			\\\textbf{Im Vordergrund stehen:}
+			\begin{itemize}
+				\item Mehrprozessorsyteme, Mehrkern-, Vielkernprozessorsysteme
+				\item Mehr-Chip- / Einzel-Chip-Lösungen (System-on-a-Chip)
+				\item Parallele Entwicklung von HW und SW
+	(HW-/SW-Codesign)
+				\item System-Prototyping (FPGA-Entwurf)
+			\end{itemize}
+			$\Rightarrow$ Kosteneinsparung, Entwicklungszeiteinsparung (Time-to-Market)
+		
+		\item[Verlustleistung]
+			\hfill\\\textbf{Im Vordergrund stehen:}
+			\begin{itemize}
+				\item Verlustleistung im Standby (Akkubetrieb)
+				\item Maximales Abwärmebudget
+			\end{itemize}
+		
+			\hfill\\\textbf{Kenngrößen:}
+			\begin{itemize}
+				\item Statische und dynamische Verlustleistung
+				\item MIPS pro Watt
+			\end{itemize}
+		
+			$\Rightarrow$ Sowohl für eingebettete Systeme als auch für Server
+		
+		
+		\item[Korrektheit]
+			\hfill\\\textbf{Aspekte:}
+			\begin{itemize}
+				\item Verifikation eines Schaltkreises, simulativ / formal
+				\item Profiling und Debugging unter Echtzeitbedingungen (Trace)
+			\end{itemize}
+			$\Rightarrow$ Fehlerfreier Erstentwurf
+		
+		
+		\item[Fehlertoleranz]\hfill
+			\\\textbf{Toleranz gegenüber:}
+			\begin{itemize}
+				\item Permanenten Fehlern (zeitunabhängig nach erstem Auftreten)
+				\item Intermitierenden Fehlern (nur unter bestimmten Betriebsbedingungen)
+				\item Transienten Fehlern (aufgrund statischer Störungen)
+			\end{itemize}
+		
+			\hfill\\\textbf{Fehlererkennung und -korrektur:}
+			\begin{itemize}
+				\item Autonom durch Hardwarearchitektur
+				\item Aus Kombination von HW und SW
+			\end{itemize}
+		
+			$\Rightarrow$ Insbesondere wichtig für Sicherheitskritische, hochverfügbare und langlebige zuverlässige Systeme
+			\\$\Rightarrow$ Steigende Siginifikanz mit abnehmenden Strukturgrößen (Integrationsgrad) sowie steigender Transistoranzahl (Moore's Law)
+	\end{description}
+
+
+\section{Inhalte der Lehrveranstaltung}
+\subsection{Inhalte der Vorlesung}
+	\begin{enumerate}
+		\item Klassifikation von Schaltkreisen
+		\item Grundlagen des Schaltkreisentwurfs
+		\item Automatendarstellung, -kopplung, -vereinfachung
+		\item Hardwarebeschreibungssprachen
+		\item Programmierabare Schaltkreise, insbesondere FPGAs - Teil 1
+		\item Programmierabare Schaltkreise, insbesondere FPGAs - Teil 2
+		\item Modellierung und Simulation
+		\item Zeitverhalten und Test
+		\item Hochgeschwindigkeit und Verlsustleistung
+		\item Anwendungsbeispiele	
+	\end{enumerate}
+
+\subsection{Inhalte des Praktikums}
+	\begin{enumerate}
+		\item Altera Quartus-Toolchain \& Praktikumsboard DE0 mit Cyclone-3
+		\item Schaltnetze und Schaltwerke
+		\item Modularisierung
+		\item \grqq Komplexe\grqq Anwendung: Stoppuhr
+	\end{enumerate}
+
+
+\section{Klassifikation von ICs}
+
+\subsection{Zwei Sichten}
+	\hfill\\Klassifizierung von integrierten Schaltkreisen (ICs) in
+	\begin{itemize}
+		\item Standarschaltkreis (Standard-IC) und
+		\item applikationspezifische Schaltkreise (Application-Specific IC, \textbf{ASIC}) 
+	\end{itemize}
+	unter zwei Gesichtspunkten möglich:
+	\begin{itemize}
+		\item \textbf{Herstellungssicht}
+		\item \textbf{Entwurfssicht}
+	\end{itemize}
+
+	\paragraph{Herstellungssicht:}
+	\begin{itemize}
+		\item Standard-IC = große Stückzahl für viele Kunden
+		\item ASIC = für eine/n Kunden/Applikation speziell entwickelter und gefertigter IC mit zugeschnittener Funktionalität
+	\end{itemize}
+
+	\paragraph{Entwurfssicht:}
+	\begin{itemize}
+		\item Standard-IC = (Hardware-)Funktionalität kann nicht vom Anwender beeinflusst werden
+		\item ASIC = vom Anwender selbst entwickelte (Hardware-)Funktionalität
+	\end{itemize}
+
+	\newpage
+	\begin{center}
+	\includegraphics[page=17, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\\\includegraphics[page=18, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\\\includegraphics[page=19, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\end{center}
+
+\subsection{Anwenderprogrammierbare IC}
+	\paragraph{Merkmale:}
+	\begin{itemize}
+		\item Field-Programmable $\Leftrightarrow$ feldprogrammierbar
+		\item Vor Ort (im Feld) vom Anwender programmierbar
+		\item Hardware ist fix. Funktionalität kann aber mittels spezieller Konfiguration \grqq programmiert\grqq werden
+	\end{itemize}
+	\paragraph{Anwendung:}
+	\begin{itemize}
+		\item Anwendungsspezifische IC bei kleinen und mittleren Stückzahlen
+		\item Mehrfach neu programmierbar zwecks Optimierung und Fehlerbehebung, auch während des praktischen Einsatzes
+		\item Einfache Integration eines ganzen Systems auf einem Chip
+		\item Prototyping, HW-/SW-Codesign
+	\end{itemize}
+
+\subsection{Hardwareprogrammierung}
+	\begin{center}
+	\includegraphics[page=21, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\end{center}
+%\newpage
+\subsection{Programmiertechnologien}
+	\begin{center}
+	\includegraphics[page=22, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\\\includegraphics[page=23, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\\\includegraphics[page=24, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\\\includegraphics[page=25, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\\\includegraphics[page=26, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\\\includegraphics[page=27, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\\\includegraphics[page=28, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\end{center}
+
+\subsection{Klassifikation Anwenderprogrammierbare IC}
+	\begin{center}
+	\includegraphics[page=29, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\\\includegraphics[page=30, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\\\includegraphics[page=31, width=0.7\linewidth, trim=30mm 20mm 20mm 40mm, clip]{\Path/resources/Vorlesung/VLSI/01_Einfuehrung.pdf}
+	\end{center}
+
+\newpage

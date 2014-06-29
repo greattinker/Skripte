@@ -1,0 +1,17 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Aufgabe 1 - Code-Optimierung}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Optimierungen}{3}{subsection.1.1}
+\contentsline {section}{\numberline {2}Aufgabe 2 - Zeitmessungen}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Original, gcc, keine flags}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Original, gcc, -O3}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Mit Optimierungen, gcc, keine flags}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Mit Optimierungen, gcc, -O3}{4}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Original, icc, keine flags}{5}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Original, icc, -O3}{5}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Mit Optimierungen, icc, keine flags}{5}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Mit Optimierungen, icc, -O3}{5}{subsection.2.8}
+\contentsline {section}{\numberline {3}Aufgabe 3 - Compiler-Flags}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}-O3}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}-floop-interchange}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}-funroll-loops}{6}{subsection.3.3}
+\contentsline {section}{\numberline {4}Aufgabe 4 - FLOP/s}{6}{section.4}

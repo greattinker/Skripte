@@ -1,0 +1,28 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Parallelisierte Matrix-Multiplikation}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Implementierung}{3}{subsection.1.1}
+\contentsline {paragraph}{Kernel}{3}{section*.2}
+\contentsline {paragraph}{Speicher}{3}{section*.3}
+\contentsline {paragraph}{Matrizen-Initialisierung}{3}{section*.4}
+\contentsline {paragraph}{Kopieren in den GPU-RAM}{3}{section*.5}
+\contentsline {paragraph}{Bestimmen der Grid- und Block-Gr\IeC {\"o}\IeC {\ss }en}{4}{section*.6}
+\contentsline {paragraph}{Ausf\IeC {\"u}hren des Kernles auf Matritzen im GPU-RAM}{4}{section*.7}
+\contentsline {paragraph}{Zur\IeC {\"u}ckkopieren der Ergebnismatrix}{4}{section*.8}
+\contentsline {paragraph}{Cleanup}{4}{section*.9}
+\contentsline {section}{\numberline {2}Zeitmessungen}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Block/Grid-Definition Variante 1}{5}{subsection.2.1}
+\contentsline {paragraph}{Nvidia Geforce GTX 460: Matrix-Multiplikation Dimension 1024 x 1024}{5}{section*.10}
+\contentsline {paragraph}{Nvidia Tesla K20X: Matrix-Multiplikation Dimension 1024 x 1024}{5}{section*.11}
+\contentsline {subsection}{\numberline {2.2}Block/Grid-Definition Variante 2}{5}{subsection.2.2}
+\contentsline {paragraph}{Nvidia Geforce GTX 460: Matrix-Multiplikation Dimension 1024 x 1024}{5}{section*.12}
+\contentsline {paragraph}{Nvidia Tesla K20X: Matrix-Multiplikation Dimension 1024 x 1024}{5}{section*.13}
+\contentsline {section}{\numberline {3}Ergebnisse}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Variante 1: $\frac {1}{BLOCKDIMX}$ Spalte in C-Matrix pro Block}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Variante 2: $BLOCKDIMX * BLOCKDIMY$ Elemente in C-Matrix pro Block}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Ben\IeC {\"o}tigter Speicher}{6}{subsection.3.3}
+\contentsline {paragraph}{Variante 1}{6}{section*.14}
+\contentsline {paragraph}{Variante 2}{6}{section*.15}
+\contentsline {subsection}{\numberline {3.4}Unterschied zwischen Varianten}{6}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Unterschied MPI-nutzende und sequentielle Berechnung}{6}{subsection.3.5}
+\contentsline {section}{\numberline {4}Anhang}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Quellcode}{7}{subsection.4.1}

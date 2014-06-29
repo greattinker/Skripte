@@ -1,0 +1,32 @@
+\section{Ergebnisse}
+
+\subsection{Variante 1: $\frac{1}{BLOCKDIMX}$ Spalte in C-Matrix pro Block}
+\lstinputlisting[language=C, linerange=24-25, firstnumber=24]{../a6.cu}
+Diese Auswahl der Elemente von den Matrizen A und B sorgt dafür, dass pro Block 1 Spalte der Matrix B und \code{BLOCKDIMX} Zeilen von A im Cache (gemeinsamen Speicher) liegen. Dadurch wird pro Block $\frac{1}{BLOCKDIMX}$ Spalte - also $\frac{1024}{BLOCKDIMX}$ Elemente - in der C-Matrix ermittelt.
+\\
+
+\subsection{Variante 2: $BLOCKDIMX * BLOCKDIMY$ Elemente in C-Matrix pro Block}
+\lstinputlisting[language=C, linerange=26-27, firstnumber=26]{../a6.cu}
+Hier hingegen liegen pro Block BLOCKDIMX Spalten der B-Matrix und BLOCKDIMY Zeilen der A-Matrix im Cache (gemeinsamen Speicher) und es werden pro Block $BLOCKDIMX * BLOCKDIMY$ Elemente in der C-Matrix berechnet.
+\\
+\subsection{Benötigter Speicher}
+\paragraph{Variante 1} Der benötigte Speicher ergibt sich aus den in Betracht genommenen Zeilen von A pro Block. \\
+Benötigter Speicher pro Block [Byte]: $(1+BLOCKDIMX) * 1024 * 4$\\\\
+Die besten Ergebnisse wurden für die Geräte bei folgenden Blockgrößen erreicht \\
+Geforce GTX 460 (BLOCKDIMX = 32): $(1+32) * 1024 * 4 = 135,168$ KB benötigter Speicher pro Block \\
+Tesla K20X (BLOCKDIMX = 64): $(1+64) * 1024 * 4 = 266,240$ KB benötigter Speicher pro Block 
+
+\paragraph{Variante 2} Hier ergibt sich der benötigte Speicher aus den in Betracht genommenen Spalten von B und Zeilen von A pro Block. \\
+Benötigter Speicher pro Block [Byte]: $(BLOCKDIMX+BLOCKDIMY) * 1024 * 4$\\\\
+Die besten Ergebnisse wurden für die Geräte bei folgenden Blockgrößen erreicht \\
+Geforce GTX 460 (BLOCKDIMX = BLOCKDIMY = 16): $(16+16) * 1024 * 4 = 131,072$ KB benötigter Speicher pro Block \\
+Tesla K20X (BLOCKDIMX = BLOCKDIMY = 32): $(32+32) * 1024 * 4 = 262,144$ KB benötigter Speicher pro Block \\
+\\
+Dies entspricht ungefähr der Größe des Register File Space der jeweiligen Geräte. (Tesla K20x: 256KB, GTX 460: 128KB) Dieser erlaubt es pro Takt pro Thread 2 Operanden zu lesen und einen zu schreiben. 
+
+\subsection{Unterschied zwischen Varianten}
+Der offensichtliche Unterschied zwischen Variante 1 und Variante 2 ist, dass bei voller Ausnutzung des Register File Space bei Variante 1 nur 32 (GTX 460) bzw. 64 (Tesla K20x) Elemente der Ergebnismatrix pro Block berechnet werden und durch Variante 2 $16^2$ (GTX 460) bzw. $32^2$ (Tesla K20x). Was bei Variante 1 zu einer höheren Blockzahl und somit weniger parallel ausgeführter Threads führt bzw. mehr Daten, die aus langsameren Speicher geladen werden müssen.
+
+\subsection{Unterschied MPI-nutzende und sequentielle Berechnung}
+Dass eine Reihe von Threads/Prozessen, die mit denselben Daten arbeiten und nicht voneinander abhängig sind, schneller fertig werden als ein Prozess, der über die gleichen Daten das gleiche Ergebnis berechnen soll, sollte offensichtlich sein. Dennoch bleiben große Unterschiede abhängig von der jeweiligen Umsetzung.\\
+Da parallelisierte Prozesse möglichst nicht voneinander abhängig sein sollten, ist es schlecht möglich Ergebnisse untereinander zu Teilen, wie es leicht in sequentiellen Programmen gemacht werden kann. (z.B. Optimierungen aus Übung 1)

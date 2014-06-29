@@ -1,0 +1,479 @@
+
+
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<ss:Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <ss:Styles>
+        <ss:Style ss:ID="1">
+            <ss:Font ss:Bold="1" />
+        </ss:Style>
+        <ss:Style ss:ID="s21">
+            <NumberFormat ss:Format="dd\-mmm\-yyyy" />
+            <Borders>
+                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+                <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+                <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+            </Borders>
+        </ss:Style>
+        <ss:Style ss:ID="s22">
+            <Borders>
+                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+                <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+                <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+            </Borders>
+        </ss:Style>
+        <ss:Style ss:ID="s23">
+            <ss:Font ss:Bold="1" ss:Underline="Single" />
+            <Borders>
+                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+                <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+                <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+            </Borders>
+        </ss:Style>
+        <ss:Style ss:ID="s22link" ss:Parent="s22">
+            <ss:Font ss:Color="Blue" />
+        </ss:Style>
+    </ss:Styles>
+    <ss:Worksheet ss:Name="Sheet1">
+        <ss:Table>
+                    <Column  ss:AutoFitWidth="1" />
+                    <Column  ss:AutoFitWidth="1" />
+
+            <ss:Row ss:StyleID="1">
+                <ss:Cell ss:MergeAcross="2">
+                    <ss:Data ss:Type="String">
+                     ARK | Compare Intel&#174; Products
+                    </ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+            <ss:Cell ss:MergeAcross="2"><ss:Data ss:Type="String">                         <text>1/27/2014 2:19:31 PM</text></ss:Data></ss:Cell>
+            </ss:Row>            
+            <ss:Row>
+                <ss:Cell></ss:Cell>
+                    <ss:Cell ss:StyleID="s22link" ss:HRef="http://ark.intel.com/products/64596/Intel-Xeon-Processor-E5-2690-20M-Cache-2_90-GHz-8_00-GTs-Intel-QPI"><ss:Data ss:Type="String">Intel&#174; Xeon&#174; Processor E5-2690 (20M Cache, 2.90 GHz, 8.00 GT/s Intel&#174; QPI)</ss:Data></ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="s22"><ss:Data ss:Type="String">Code Name</ss:Data></ss:Cell>
+                    <ss:Cell ss:StyleID="s22"><ss:Data ss:Type="String">
+Sandy Bridge-EP                    </ss:Data></ss:Cell>
+            </ss:Row>
+                        <ss:Row>
+                            <ss:Cell ss:MergeAcross="1" ss:StyleID="s23">
+                                <ss:Data ss:Type="String">Essentials</ss:Data>
+                            </ss:Cell>
+                        </ss:Row> 
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Status</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Launched</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Launch Date</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Q1&#39;12</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Processor Number</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">E5-2690</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String"># of Cores</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">8</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String"># of Threads</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">16</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Clock Speed</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">2.9 GHz</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Max Turbo Frequency</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">3.8 GHz</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Cache</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">
+                                                        20 MB Intel&#174; Smart Cache
+                                            </ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                                <ss:Row>
+                                <ss:Cell ss:StyleID="s22">
+                                    <ss:Data ss:Type="String">Bus Type</ss:Data>
+                                </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">QPI</ss:Data>
+                                        </ss:Cell>
+                                </ss:Row>          
+                                <ss:Row>
+                                <ss:Cell ss:StyleID="s22">
+                                    <ss:Data ss:Type="String">System Bus</ss:Data>
+                                </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">8 GT/s</ss:Data>
+                                        </ss:Cell>
+                                </ss:Row>          
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String"># of QPI Links</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">2</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Instruction Set</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">64-bit</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Instruction Set Extensions</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">AVX</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Embedded Options Available</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">No</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Lithography</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">32 nm</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Scalability</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">2S Only</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Max TDP</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">135 W</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">VID Voltage Range</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">0.60V-1.35V</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Recommended Customer Price</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">BOX : $2061,00TRAY: $2057,00</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                        <ss:Row>
+                            <ss:Cell ss:MergeAcross="1" ss:StyleID="s23">
+                                <ss:Data ss:Type="String">Memory Specifications</ss:Data>
+                            </ss:Cell>
+                        </ss:Row> 
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Max Memory Size (dependent on memory type)</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">384 GB</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Memory Types</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">DDR3-800/1066/1333/1600</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String"># of Memory Channels</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">4</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Max Memory Bandwidth</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">51.2 GB/s</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">ECC Memory Supported   ‡</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                        <ss:Row>
+                            <ss:Cell ss:MergeAcross="1" ss:StyleID="s23">
+                                <ss:Data ss:Type="String">Expansion Options</ss:Data>
+                            </ss:Cell>
+                        </ss:Row> 
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">PCI Express Revision</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">3.0</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Max # of PCI Express Lanes</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">40</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                        <ss:Row>
+                            <ss:Cell ss:MergeAcross="1" ss:StyleID="s23">
+                                <ss:Data ss:Type="String">Package Specifications</ss:Data>
+                            </ss:Cell>
+                        </ss:Row> 
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Max CPU Configuration</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">2</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">T&lt;sub&gt;CASE&lt;/sub&gt;</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">72.0 &#176;C</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Package Size</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">52.5mm x 45.0 mm</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Sockets Supported</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">FCLGA2011</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Low Halogen Options Available</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">See MDDS</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                        <ss:Row>
+                            <ss:Cell ss:MergeAcross="1" ss:StyleID="s23">
+                                <ss:Data ss:Type="String">Advanced Technologies</ss:Data>
+                            </ss:Cell>
+                        </ss:Row> 
+                                <ss:Row>
+                                <ss:Cell ss:StyleID="s22">
+                                    <ss:Data ss:Type="String">Intel&#174; Turbo Boost Technology</ss:Data>
+                                </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">2.0</ss:Data>
+                                        </ss:Cell>
+                                </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Intel&#174; vPro Technology ‡</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Intel&#174; Hyper-Threading Technology ‡</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Intel&#174; Virtualization Technology (VT-x) ‡</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Intel&#174; Virtualization Technology for Directed I/O (VT-d) ‡</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Intel&#174; VT-x with Extended Page Tables (EPT) ‡</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Intel&#174; 64 ‡</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Idle States</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Enhanced Intel SpeedStep&#174; Technology</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Intel&#174; Demand Based Switching</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Thermal Monitoring Technologies</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Intel&#174; Flex Memory Access</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">No</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Intel&#174; Identity Protection Technology ‡</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">No</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                        <ss:Row>
+                            <ss:Cell ss:MergeAcross="1" ss:StyleID="s23">
+                                <ss:Data ss:Type="String">Intel&#174; Data Protection Technology</ss:Data>
+                            </ss:Cell>
+                        </ss:Row> 
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">AES New Instructions</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                        <ss:Row>
+                            <ss:Cell ss:MergeAcross="1" ss:StyleID="s23">
+                                <ss:Data ss:Type="String">Intel&#174; Platform Protection Technology</ss:Data>
+                            </ss:Cell>
+                        </ss:Row> 
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Trusted Execution Technology ‡</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+                            <ss:Row>
+                            <ss:Cell ss:StyleID="s22">
+                                <ss:Data ss:Type="String">Execute Disable Bit ‡</ss:Data>
+                            </ss:Cell>
+                                        <ss:Cell ss:StyleID="s22">
+                                            <ss:Data ss:Type="String">Yes</ss:Data>
+                                        </ss:Cell>
+                            </ss:Row>
+        </ss:Table>
+    </ss:Worksheet>
+</ss:Workbook>

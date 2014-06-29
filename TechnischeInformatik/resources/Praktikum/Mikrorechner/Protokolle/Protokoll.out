@@ -1,0 +1,32 @@
+\BOOKMARK [0][-]{chapter.1}{Programm}{}
+\BOOKMARK [1][-]{section.1.1}{Entwurf}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.1.1}{Circuit}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.2}{Parser}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.3}{Simulator}{section.1.1}
+\BOOKMARK [1][-]{section.1.2}{\304quivalenzpr\374fung duch Simulation}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.2.1}{Voraussetzungen}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.2}{Vorgehen}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.3}{Implementierung}{section.1.2}
+\BOOKMARK [1][-]{section.1.3}{\304quivalenzpr\374fung durch SAT-Solver}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.3.1}{Voraussetzungen}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.2}{Vorgehen}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.3}{Implementierung}{section.1.3}
+\BOOKMARK [0][-]{chapter.2}{Versuche}{}
+\BOOKMARK [1][-]{section.2.1}{1. Versuch}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{2. Versuch}{chapter.2}
+\BOOKMARK [1][-]{section.2.3}{3. Versuch}{chapter.2}
+\BOOKMARK [1][-]{section.2.4}{4. Versuch}{chapter.2}
+\BOOKMARK [1][-]{section.2.5}{5. Versuch}{chapter.2}
+\BOOKMARK [1][-]{section.2.6}{6. Versuch}{chapter.2}
+\BOOKMARK [0][-]{chapter.3}{Anhang}{}
+\BOOKMARK [1][-]{section.3.1}{Circuit}{chapter.3}
+\BOOKMARK [1][-]{section.3.2}{Simulator}{chapter.3}
+\BOOKMARK [1][-]{section.3.3}{Solver}{chapter.3}
+\BOOKMARK [1][-]{section.3.4}{Parsers}{chapter.3}
+\BOOKMARK [1][-]{section.3.5}{Parser}{chapter.3}
+\BOOKMARK [1][-]{section.3.6}{BENCH}{chapter.3}
+\BOOKMARK [1][-]{section.3.7}{Gates}{chapter.3}
+\BOOKMARK [1][-]{section.3.8}{Gate}{chapter.3}
+\BOOKMARK [1][-]{section.3.9}{Input}{chapter.3}
+\BOOKMARK [1][-]{section.3.10}{DFF}{chapter.3}
+\BOOKMARK [1][-]{section.3.11}{Output}{chapter.3}

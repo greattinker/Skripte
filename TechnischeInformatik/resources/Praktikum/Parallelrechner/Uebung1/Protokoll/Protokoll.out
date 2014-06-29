@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.1}{Aufgabe 1 - Code-Optimierung}{}
+\BOOKMARK [2][-]{subsection.1.1}{Optimierungen}{section.1}
+\BOOKMARK [1][-]{section.2}{Aufgabe 2 - Zeitmessungen}{}
+\BOOKMARK [2][-]{subsection.2.1}{Original, gcc, keine flags}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{Original, gcc, -O3}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{Mit Optimierungen, gcc, keine flags}{section.2}
+\BOOKMARK [2][-]{subsection.2.4}{Mit Optimierungen, gcc, -O3}{section.2}
+\BOOKMARK [2][-]{subsection.2.5}{Original, icc, keine flags}{section.2}
+\BOOKMARK [2][-]{subsection.2.6}{Original, icc, -O3}{section.2}
+\BOOKMARK [2][-]{subsection.2.7}{Mit Optimierungen, icc, keine flags}{section.2}
+\BOOKMARK [2][-]{subsection.2.8}{Mit Optimierungen, icc, -O3}{section.2}
+\BOOKMARK [1][-]{section.3}{Aufgabe 3 - Compiler-Flags}{}
+\BOOKMARK [2][-]{subsection.3.1}{-O3}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{-floop-interchange}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{-funroll-loops}{section.3}
+\BOOKMARK [1][-]{section.4}{Aufgabe 4 - FLOP/s}{}

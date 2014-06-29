@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.24)  28 JUN 2014 15:46
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.24)  29 JUN 2014 13:38
 entering extended mode
  %&-line parsing enabled.
 **Skript.tex
@@ -1033,7 +1033,7 @@ sy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts
 1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Skript.pdf (19 pages, 622387 bytes).
+Output written on Skript.pdf (19 pages, 622351 bytes).
 PDF statistics:
  292 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)

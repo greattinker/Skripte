@@ -1,0 +1,33 @@
+\section{Äquivalenzprüfung duch Simulation}
+
+\subsection{Voraussetzungen}
+\begin{itemize}
+	\item Schaltkreise müssen gleichviele Eingänge bzw. Ausgänge besitzen
+	\item falls in einem Schaltkreis ein Eingang bzw. Ausgang vorkommt, muss ein gleichnamiger Eingang bzw. Ausgang auch in den anderen Schaltkreisen vorkommen
+	\item es können beliebig viele Schaltkreise verglichen werden, falls einer nicht äquivalent mit einem anderen ist, wird \code{false} zurückgegeben
+	\item ist kein Schaltkreis definiert, wird \code{false} zurückgegeben
+	\item ist nur ein Schaltkreis definiert, wird \code{true} zurückgegeben
+
+\end{itemize}
+
+\subsection{Vorgehen}
+\begin{enumerate}
+	\item über mögliche Zustände ($2^N$ mit N ... Anzahl der Eingänge) iterieren
+
+	\begin{enumerate}
+		\item durch Schaltkreise iterieren
+		\begin{enumerate}
+			\item Zustand auf Eingänge abbilden
+			\item Schaltkreis traversieren und Ausgangsbelegung ermitteln
+		\end{enumerate}
+		\item Belegungen mit denen des vorangegangenen Schaltkreises Vergleichen
+		\item Bei unterschiedlicher Belegung wird \code{false} zurückgegeben
+		\item Sonst wird die Iteration über die Zustände fortgesetzt
+	\end{enumerate}
+	
+	\item wurde über alle $2^N$ Zustände iteriert und keine Varianz der Ausgangsbelegung bei den Schaltkreisen festgestellt, wird \code{true} zurückgegeben
+\end{enumerate}
+
+
+\subsection{Implementierung}
+Für alle Circuits werden die möglichen Inputs berechnet und die erhaltenen Outputs miteinander verglichen. Sollte dabei ein Circuit enthalten sein, der abweicht, wird false zurückgegeben (Circuits sind nicht äquivalent). 
