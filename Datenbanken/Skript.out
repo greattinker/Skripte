@@ -1,0 +1,24 @@
+\BOOKMARK [0][-]{chapter.0.1}{Allgemeine Einf\374hrung}{}
+\BOOKMARK [1][-]{section.0.1.1}{Qualifikationsziele}{chapter.0.1}
+\BOOKMARK [1][-]{section.0.1.2}{Basisliteratur}{chapter.0.1}
+\BOOKMARK [1][-]{section.0.1.3}{Spezielle Literatur}{chapter.0.1}
+\BOOKMARK [-1][-]{part.1}{Allgemeines}{}
+\BOOKMARK [0][-]{chapter.1.1}{Datenbanksystem}{part.1}
+\BOOKMARK [0][-]{chapter.1.2}{Datenbankanfragen}{part.1}
+\BOOKMARK [1][-]{section.1.2.1}{Anfragesprachen}{chapter.1.2}
+\BOOKMARK [2][-]{subsection.1.2.1.1}{Typen von Anfragesprachen}{section.1.2.1}
+\BOOKMARK [2][-]{subsection.1.2.1.2}{Optimierungsarten}{section.1.2.1}
+\BOOKMARK [1][-]{section.1.2.2}{Anfrageverarbeitung}{chapter.1.2}
+\BOOKMARK [0][-]{chapter.1.3}{Komponenten eines Datenbanksystems}{part.1}
+\BOOKMARK [0][-]{chapter.1.4}{Schichtenmodell}{part.1}
+\BOOKMARK [-1][-]{part.2}{ADBS-1: Betriebssystem, Puffer- und Speicherverwaltung}{}
+\BOOKMARK [0][-]{chapter.2.1}{Einf\374hrung}{part.2}
+\BOOKMARK [0][-]{chapter.2.2}{Segment- und Seitenverwaltung}{part.2}
+\BOOKMARK [0][-]{chapter.2.3}{Einbringstrategien}{part.2}
+\BOOKMARK [0][-]{chapter.2.4}{Systempuffer}{part.2}
+\BOOKMARK [0][-]{chapter.2.5}{Row-based Record Management \(klassische Satzverwaltung\)}{part.2}
+\BOOKMARK [0][-]{chapter.2.6}{Column-based Record Management}{part.2}
+\BOOKMARK [0][-]{chapter.2.7}{Distributed Key-Value Stores}{part.2}
+\BOOKMARK [0][-]{chapter.2.8}{Replication}{part.2}
+\BOOKMARK [-1][-]{part.3}{ADBS-2: Zugriffssystem, Datensystem}{}
+\BOOKMARK [-1][-]{part.4}{Appendix}{}

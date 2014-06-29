@@ -1,0 +1,127 @@
+\documentclass[10pt,german,a4paper]{scrreprt}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc} 
+\usepackage{lmodern}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{pdfpages}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref} 
+\usepackage{float}		
+\usepackage{relsize}		
+\usepackage{euscript}	
+
+
+\hypersetup{
+	pdfborder=0
+}
+
+\geometry{a4paper,left=1cm,right=1cm, top=2cm, bottom=2cm} 
+
+\def \Path {/media/Daten/Studium/Skripte/Datenbanken}
+\makeatletter
+	\@addtoreset{chapter}{part}
+\makeatother
+
+
+
+\title{Architektur von Datenbanksystemen\\Skript}
+\subtitle{In der Hoffnung, dass es was nützt ...}
+\author{Christian Kroh}
+\date{\today{}, Dresden}
+
+
+
+
+
+
+
+\pagestyle{fancy}
+\lhead{Skript Architektur von Datenbanksystemen}
+\chead{}
+\rhead{\leftmark}
+\lfoot{Christian Kroh \texttt{(s1428123)}}
+\cfoot{}
+\rfoot{\thepage}
+
+\renewcommand*{\chapterpagestyle}{fancy}
+
+
+\newtheoremstyle{mytheoremstyle} % name
+    {\topsep}                    % Space above
+    {\topsep}                    % Space below
+    {\itshape}                   % Body font
+    {}                           % Indent amount
+    {\scshape}                   % Theorem head font
+    {:\\\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}\\}                          % Punctuation after theorem head
+    {.5em}                       % Space after theorem head
+    {{\normalfont\bfseries Definition\thmnumber{ #2}\thmnote{ (#3)}: \thmname{#1}}}  % Theorem head spec (can be left empty, meaning ‘normal’)
+
+\theoremstyle{mytheoremstyle}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\chapter{Allgemeine Einführung}
+\section{Qualifikationsziele}
+Die Lehrveranstaltung widmet sich im Wesentlichen der Architektur von Datenbanken, wobei die Thematik von unterschiedlichen Perspektiven betrachtet wird.  Zum einen wird der Aufbau traditioneller Datenbanksysteme schrittweise hinsichtlich der verschiedenen funktionalen Schichten diskutiert, wobei datenbankspezifische Konzepte der Externspeicherverwaltung, des Systempuffer-Managements und der internen Satzschnittstelle ausführlich untersucht werden.  Des Weiteren werden orthogonale Konzepte wie aus dem Bereich der parallelen Datenbankarchitektur (Parallelisierung von Datenbankoperatoren) und aus dem Umfeld verteilter Sperr- und Cache-Synchronisationsverfahren betrachtet. Ebenfalls werden im Bereich der verteilten Datenbanken notwendige Technologien für einen zuverlässigen transaktional ausgerichteten Betrieb aufgearbeitet (2-Phasen-Commit-Protokoll, Replikation, etc.). Neben den traditionellen Datenbanksystemen wird auch auf alternative Konzepte, wie z.B. „Column-Store“ Datenbanken und Datenstromsysteme eingegangen. Außerdem werden Prinzipien und Techniken wie Fragmentierung, Replikation, Virtualisierung, Multi-Tenancy oder CAP-Theorem sowohl im Bezug auf operationale wie auch auf analytische Probleme diskutiert.\\\\
+Datenbank- und Informationssysteme können in zwei große Bestandteile zerlegt werden. Auf der einen Seite steht das Speichermanagement, d.h. die Komponenten, die für die physische Organisation der Datenbestände zur Verfügung stehen. Die unterschiedlichen Methoden und Komponenten werden dabei im ersten Teil der Vorlesungsreihe besprochen. Auf der anderen Seite steht die Verarbeitungseinheit, also die Komponenten eines Systems, die transaktional geschützt, nebenläufig korrekt und effizient Datenbankanfragen bearbeiten. Die Methoden und die Aufgaben der unterschiedlichen Komponenten werden in diesem zweiten Teil der Vorlesung besprochen. Als Schnittstelle zwischen den Schichten innerhalb der Datenbankarchitektur dient die Auffassung eines Key-Value-Paares. Dabei kann Key-Value bedeuten, dass dies direkt von der Applikation genutzt bzw. programmiert werden kann oder höhere Systemschichten darauf aufsetzen. Ziel der Vorlesung ist es ein tiefes Verständnis von Anfrageverarbeitungs- und optimierungstechniken unter den Randbedingungen transaktionaler Korrektheit zu vermitteln.
+
+\section{Basisliteratur}
+\begin{itemize}
+\item A. Kemper, A. Eickler: “Datenbanksysteme”, Oldenbourg-Verlag
+\item R. Elmasri and S. Navathe: “Grundlagen von Datenbanksystemen”, 3. überarbeitete
+Auflage, Addison-Wesley, 2002
+\end{itemize}
+
+\section{Spezielle Literatur}
+\begin{itemize}
+\item Gunter Saake, Andreas Heuer, Kai-Uwe Sattler: Datenbanken:
+Implentierungstechniken, mitp Verlag, 2. Auflage
+
+\item Härder T.; Rahm, E.: Datenbanksysteme. Konzepte und Techniken der
+Implementierung, Springer-Verlag
+\item Ramakrishnan, R.; Gehrke, J.: “Database Management Systems”. McGraw-Hill, 2000
+
+\end{itemize}
+
+\newpage
+\part{Allgemeines}
+\newpage
+\input{\Path/Allgemeines/00-Allgemeines}
+
+\part{ADBS-1: Betriebssystem, Puffer- und Speicherverwaltung}
+\newpage
+\input{\Path/ADBS-1/00-ADBS-1}
+
+
+\part{ADBS-2: Zugriffssystem, Datensystem}
+\newpage
+%\input{../Parallelrechner/Skript/00-Parallelrechner}
+
+
+\part{Appendix}
+\newpage
+%\input{../Parallelrechner/Skript/00-Parallelrechner}
+\end{document}
