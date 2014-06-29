@@ -74,13 +74,216 @@
 		\end{center}
 	
 \subsection{SM-Charts}
+	\begin{center}
+		\includegraphics[page=12, width=0.65\linewidth, trim=35mm 30mm 30mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+	\end{center}
+	
+	\subsubsection{Verzweigungen}
+		\paragraph{Weitere Merkmale:}
+		\begin{itemize}
+			\item Selbstdefinierte Abkürzungen für komplexe Ausdrücke üblich
+			\item im Allgemeinen nur Prüfung einer Eingangsvariablen (nicht Eingabezeichen) pro Verzweigung
+		\end{itemize}
+		\paragraph{Weitere Beispiele:}
 		\begin{center}
-			\includegraphics[page=12, width=0.65\linewidth, trim=35mm 30mm 30mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+			\includegraphics[page=13, width=0.65\linewidth, trim=35mm 27mm 30mm 111mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
 		\end{center}
 		
-		\subsubsection{Verzweigungen}
-			\paragraph{Weitere Merkmale:}
-			\begin{itemize}
-				\item Selbstdefinierte Abkürzungen für komplexe Ausdrücke üblich
-			\end{itemize}
 	
+	\subsubsection{Ausgaben}
+		\paragraph{Ebenso:}
+		Selbstdefinierte Abkürzungen für komplexe Ausdrücke üblich
+		
+		\paragraph{Weitere Beispiele:}
+		\begin{center}
+			\includegraphics[page=14, width=0.65\linewidth, trim=35mm 27mm 30mm 110mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+	
+	\subsubsection{Vorteile gegenüber Automatengraphen}
+		\begin{itemize}
+			\item prinzipiell Vollständig
+			\item präzise Modellierung hierarchischer Verzweigungen
+		\end{itemize}
+		\begin{center}
+			\includegraphics[page=15, width=0.65\linewidth, trim=35mm 27mm 30mm 80mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+			
+
+\subsection{GRAFCET \& SFC}
+	\paragraph{Allgemeines:}
+	\begin{itemize}
+		\item Struktur entspricht einem Petri-Netz
+		\item Darstellung von schrittweise ausgeführten Ablaufbeschreibungen
+		\item Anwendung in Automatisierungstechnik und Verfahrenstechnik
+		\item Verwendbar zur Programmierung von Speicherprogrammierbaren Steuerungen (SPS)
+		\item Automatenkopplung nicht vorgesehen; muss durch Eingangs- und Ausgangsvariablen realisiert werden
+	\end{itemize}
+	\hfill\\
+	\begin{tabular}{ll}
+		GRAFCET & GRAphe Functionnel de Commande Etapes/Transitions\\
+		SFC & sequential function chart
+	\end{tabular}
+	
+	
+	\subsubsection{Grundelemente}
+		\begin{itemize}
+			\item Schritt:
+				\begin{itemize}
+					\item entspricht einem Zustand
+					\item mindestens ein Initialisierungsschritt notwendig
+				\end{itemize}
+			\item Transition
+				\begin{itemize}
+					\item Schaltbedingung für Übergang zwischen zwei Schritten (boolesche Gleichung) = zeitliche Ereignisse
+					\item Schritte und Transitionen folgen immer aufeinander
+					\item Leserichtung: Transitionen können nur von oben nach unten durchlaufen werden
+				\end{itemize}
+			\item Aktion
+				\begin{itemize}
+					\item einem Schritt zugeordnet
+					\item realisiert die Ausgabe
+					\item verschiedene Aktionsarten möglich
+				\end{itemize}
+		\end{itemize}
+	
+	\subsubsection{Aktionen}
+		\begin{center}
+			\includegraphics[page=18, width=0.65\linewidth, trim=85mm 27mm 50mm 43mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+	\subsubsection{Kontrollfluss: Verzweigungen}
+		\begin{center}
+			\includegraphics[page=19, width=0.65\linewidth, trim=55mm 27mm 50mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+	\subsubsection{Kontrollfluss: Schleife}
+		\begin{center}
+			\includegraphics[page=20, width=0.65\linewidth, trim=45mm 27mm 50mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+	\subsubsection{Vergleich von GRAFCET \& SFC}
+		\begin{itemize}
+			\item identische Grundstruktur, Verzweigung und Initialisierung
+			\item Ablauf-Ends in GRAFCET nicht notwendig, dann SPrung zu Initialisierungsschritt
+			\item Schleifen in SFC
+				\begin{itemize}
+					\item Vorwärtssprung = Alternativverzweigung
+					\item Rückwärtssprung = Schleife
+				\end{itemize}
+			\item Aktionen s.o.
+		\end{itemize}
+		$\Rightarrow$ GRAFCET ist für den Entwurf konzipiert, SFC für die Implementierung
+		
+	\subsubsection{Beispiel zu GRAFCET}
+		\begin{center}
+			\includegraphics[page=22, width=0.65\linewidth, trim=100mm 27mm 50mm 42mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+
+
+\section{Automatenkopplung}
+	\paragraph{Zerlegung der Gesamtaufgabe in Teilschaltungen zwecks:}
+	\begin{itemize}
+		\item Nebenläufigkeit\\(statt sequentieller Abarbeitung)
+		\item Energieeinsparung ducrh Abschaltung ungenutzter Komponenten\\(statt Dauerbetrieb der gesamten Schaltung)
+		\item komponentenbasierter, testfreundlicher Entwurf\\(statt monolitischem Design)
+		\item Integration von Komponenten von Drittanbietern\\(statt eigenem Entwurf aller Komponenten)
+	\end{itemize}
+	
+	\paragraph{Außerdem:} 
+	Kommunikation mit der Außenwelt erfordert im Allgemeinen nebenläufig arbeitende I/O-Controller aufgrund asynchron eintreffender Ereignisse (Nachrichten) $\rightarrow$ Client-Server Architektur
+	
+	\subsubsection{Zeitliche Kopplung}
+		\begin{center}
+			\includegraphics[page=25, width=0.65\linewidth, trim=30mm 50mm 30mm 65mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+	\subsubsection{Asynchrone Kopplung synchroner Teilschaltungen}
+		\paragraph{Merkmal:} Mehrere (lokale) Taktsignale / Taktdomänen (clock domain)
+		\paragraph{Vorteile:}
+		\begin{itemize}
+			\item Timing-Analyse sichert Zeitverhalten innerhalb der Domäne
+			\item passende Taktfrequenz innerhalb der Domäne
+			\begin{itemize}
+				\item Kombination High-Speed und Low-Power
+				\item Taktfrequenz dynamisch anpassbar
+				\item Abschalten einer Domäne für Standby
+			\end{itemize}
+		\end{itemize}
+		\paragraph{Nachteil:}\hfill\\
+		Datenaustausch zwischen Taktdomänen erfordern:
+		\begin{itemize}
+			\item Module mit Single-Bit-Synchronizer, Cross-Clock-FIFOs
+			\item spezielle Timing-Constraints
+		\end{itemize}
+	
+	\subsubsection{Synchrone Kopplung mit mehreren Taktsignalen}
+		\paragraph{Merkmal:} Mehrere (lokale) Taktsignale / Taktdomänen, zwischen denen aber spezielle Abhängigkeiten bestehen (dependent clocks)
+		\paragraph{Vorteile:}
+		\begin{itemize}
+			\item Timing-Analyse sichert Zeitverhalten innerhalb der Domäne und auch zwischen den Domänen
+			\item passende feste Taktfrequenz je Domäne
+			\item keine speziellen Synchronisationselemente erforderlich
+		\end{itemize}
+		\paragraph{Nachteil:} Taktfrequenzen sind statisch.
+		
+		
+\subsection{Synchrone Kopplung}
+	Kommunikation über:
+	\begin{itemize}
+		\item Zustände oder
+		\item Ausgaben
+	\end{itemize}
+	
+	Anordnung:
+	\begin{itemize}
+		\item parallel oder
+		\item seriell
+	\end{itemize}
+	
+	
+	\subsubsection{Kommunikation über Zustände}
+		\begin{center}
+			\includegraphics[page=30, width=0.65\linewidth, trim=30mm 27mm 30mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+	
+	\subsubsection{Kommunikation über Ausgaben}
+		\begin{center}
+			\includegraphics[page=31, width=0.65\linewidth, trim=30mm 27mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+			\includegraphics[page=32, width=0.65\linewidth, trim=30mm 27mm 30mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+	
+	\subsubsection{Parallele Anordnung}
+		\begin{center}
+			\includegraphics[page=33, width=0.65\linewidth, trim=30mm 27mm 30mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+	\subsubsection{Serielle Anordnung}
+		\begin{center}
+			\includegraphics[page=34, width=0.65\linewidth, trim=30mm 27mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+	\subsubsection{Flusskontrolle}
+		\begin{center}
+			\includegraphics[page=35, width=0.65\linewidth, trim=30mm 40mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+	\subsubsection{Beispiel: Produktautomat}
+		\begin{center}
+			\includegraphics[page=36, width=0.65\linewidth, trim=30mm 50mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+	\subsubsection{Beispiel: Datenverarbeitung}
+		\begin{center}
+			\includegraphics[page=37, width=0.65\linewidth, trim=30mm 30mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+			\includegraphics[page=38, width=0.65\linewidth, trim=30mm 30mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+			\includegraphics[page=39, width=0.65\linewidth, trim=30mm 30mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+		
+	\subsubsection{Beispiel: De-/Multiplexer}
+		\begin{center}
+			\includegraphics[page=40, width=0.65\linewidth, trim=30mm 30mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+
+\subsection{Asynchrone Kopplung}
+\section{Initialisierung}

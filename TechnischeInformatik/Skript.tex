@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc} 
 \usepackage{lmodern}
 \usepackage{listings}
-\usepackage{color}
+\usepackage[usenames,dvipsnames]{color}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{pdfpages}
@@ -15,7 +15,9 @@
 \usepackage{float}		
 \usepackage{relsize}		
 \usepackage{euscript}	
+\usepackage{titlesec}
 
+\definecolor{battleshipgrey}{rgb}{0.52, 0.52, 0.51}
 
 \hypersetup{
 	pdfborder=0
@@ -28,6 +30,12 @@
 	\@addtoreset{chapter}{part}
 \makeatother
 
+\titleformat*{\section}{\sffamily\LARGE\bfseries\color{battleshipgrey}}
+\titleformat*{\subsection}{\sffamily\Large\bfseries\color{battleshipgrey}}
+\titleformat*{\subsubsection}{\sffamily\large\bfseries\color{battleshipgrey}}
+
+
+\renewcommand*{\chapterpagestyle}{fancy}
 
 
 \pagestyle{fancy}
@@ -61,13 +69,7 @@
     breakatwhitespace=true,
 }
 
-\renewcommand*{\chapterpagestyle}{fancy}
 
-\newcommand{\insertrep}[1]{%
-	\hspace*{-2.4cm}
-	\fbox{\includegraphics[page=1,scale=0.8]{#1}}
-	\includepdf[scale=0.8,pages=2-,frame]{#1}
-}
 
 \title{Einführung in die Technische Informatik\\Skript}
 \subtitle{In der Hoffnung, dass es was nützt ...}
