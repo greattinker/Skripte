@@ -361,3 +361,56 @@
 	\end{itemize}
 	
 \subsection{Synchrones Reset}
+	\paragraph{Vorteile:}
+	\begin{itemize}
+		\item Synthese immer möglich: Set/Reset als zusätzliche Variable in FF-Ansteuergleichung, sofern nicht explizit vorhanden
+		\item Logik-Zusammenfassung möglich
+		\item Überprüfung in Timing-Analys
+	\end{itemize}
+	
+	\paragraph{Nachteil:}\hfill\\
+	Free-Running Clock benötigt, damit Reset auch ausgelöst wird
+	
+	\paragraph{Reset-Synchronizer}
+	\begin{itemize}
+		\item Reset-Pin muss synchronisiert werden, damit alle Register in der gleichen Taktperiode zurückgesetzt werden
+		\item Synchronisation mit (min.) 2 FFs, um Metastabilitäten zu vermeiden
+		\item Reset-Pin ist ggf. zu negieren
+		\item Schaltung allg. verwendbar für Synchronisation asynchroner Signale
+	\end{itemize}
+	\begin{center}
+		\includegraphics[page=52, width=0.65\linewidth, trim=30mm 27mm 27mm 120mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+	\end{center}
+	
+\subsection{Asynchrones Reset}
+	\paragraph{Vorteile:}
+	\begin{itemize}
+		\item Keine Free-Running CLock benötigt um Reset auszulösen, u.U. notwendig für Register, die Schaltungsausgänge treiben
+		\item Seperater FF-Eingang, damit kein Einfluss auf Timing
+	\end{itemize}
+	
+	\paragraph{Nachteile:}
+	\begin{itemize}
+		\item Implementierung erfordert globale Verdrahtungsressourcen wie Taktsignale
+		\item Timing-Analyse problematisch und häufig standardmäßig ignoriert
+		\item Reset am Register darf nicht in zeitlicher Nähe zur Taktflanke losgelassen werden $\rightarrow$ sonst Metastabilitäten
+	\end{itemize}
+	
+	\paragraph{Reset-Synchronizer}
+	\begin{itemize}
+		\item Reset muss synchron losgelassen werden, damit alle Register in der gleichen Taktperiode wieder in Betrieb gehen
+		\item Reset-Pin ist ggf. zu negieren
+		\item Reset-Tree sorgt für zusätzliche, notwendige! Verzögerung
+	\end{itemize}
+	\begin{center}
+		\includegraphics[page=54, width=0.65\linewidth, trim=30mm 27mm 27mm 120mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+	\end{center}
+	
+\subsection{Coding Guidelines für Reset}
+	\paragraph{Empfehlungen:}
+	\begin{itemize}
+		\item Synchrones Reset
+		\item Reset-Eingang setzt nur Zustandsregister zurück\\
+			$\to$ Fan-Out von Reset-EIngang klein
+		\item Power-Up-Wert automatisch ermitteln lassen. damit identisch zu Reset-Wert
+	\end{itemize}
