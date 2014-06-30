@@ -286,4 +286,78 @@
 		\end{center}
 
 \subsection{Asynchrone Kopplung}
+
+	\subsubsection{Abtastproblem}
+	
+	\begin{wrapfigure}{r}{0.25\linewidth}
+  		\vspace{-20pt}
+	  	\begin{center}
+			\includegraphics[page=41, width=0.6\linewidth, trim=210mm 45mm 27mm 65mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+	  	\end{center}
+		\vspace{-20pt}
+	\end{wrapfigure}
+	
+	Kommunikation zwischen verschiednen Taktdomänen aufgrund verschiedener Taktfrequenzen und -phasen komplexer:
+	\begin{itemize}
+		\item keine feste Zuordnung zwischen zwei Zeitpunkten, \\allg. Annahme \( t_n = n * T_1 \neq m* T_2 = t_m\) mit $n,m \in N$
+		\item Abtastung von Signalvektoren kann zu Fehlern aufgrund verschiedener Signallaufzeiten führen
+	\end{itemize}
+	
+	\subsubsection{Flusskontrolle}
+	Berücksichtigung verschiedener Taktfrequenzen im Protokoll notwendig:
+	\begin{itemize}
+		\item Mehrfaches Lesen desseleben Ausgabezeichens, \\wenn $f_2 > f_1$
+		\item Verpassen von Ausgabezeichen, \\wenn $f_2 < f_1$
+	\end{itemize} 
+	
+	\subsubsection{Übertragung eines einzelnen Bits}
+		\begin{center}
+			\includegraphics[page=43, width=0.65\linewidth, trim=30mm 27mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		\end{center}
+	
+	\subsubsection{Übertragung eines Signalvektors}
+	Mehrere Varainten möglich:
+	\begin{enumerate}
+		\item Gray-Code
+		\item Steuerung mittels einzelner, seperater Bits
+		\item Warteschlange mittels Cross-Clock-FIFO
+	\end{enumerate}
+	
+	\subsubsection{Variante 1: Gray-Code}
+		\includegraphics[page=45, width=0.65\linewidth, trim=30mm 27mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}\\
+		\includegraphics[page=46, width=0.65\linewidth, trim=30mm 27mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		
+	\subsubsection{Variante 2: Steuerung mittels einzelner Bits}
+		\includegraphics[page=47, width=0.65\linewidth, trim=25mm 30mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		
+	\subsubsection{Variante 3: FIFO-Warteschlange}
+		\includegraphics[page=48, width=0.65\linewidth, trim=25mm 30mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}\\
+		
+		\includegraphics[page=49, width=0.65\linewidth, trim=25mm 30mm 27mm 60mm, clip]{\Path/resources/Vorlesung/VLSI/03_Automaten.pdf}
+		
+		
+		
+		
+		
 \section{Initialisierung}
+	
+\subsection{Reset vs. Power-Up}
+	\paragraph{Nicht programmierbare Schaltkreise:}
+	\begin{itemize}
+		\item Reset notwendig für Initialisierung der Zustandsregister
+		\item Datenregister können von Automaten initialisiert werden
+	\end{itemize}
+	
+	\paragraph{Programmierbare Schaltkreise:}
+	\begin{itemize}
+		\item Initiale Registerbelegung wird durch Programmierung festgelegt
+		\item Reset-Eingang ist dh. optional
+	\end{itemize}
+	
+	\paragraph{$\rightarrow$ Wiederverwendungsgerechter Entwurf:}
+	\begin{itemize}
+		\item Reset-Eingang vorsehen
+		\item (Zustands-)Register bei Power-Up und Reset gleichermaßen belegen
+	\end{itemize}
+	
+\subsection{Synchrones Reset}
