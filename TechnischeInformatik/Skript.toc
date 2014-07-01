@@ -23,10 +23,10 @@
 \contentsline {paragraph}{Ebenen des Entwurfs:}{14}{section.1.2.1}
 \contentsline {paragraph}{Sichten des Entwurfs:}{14}{section.1.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Abstraktionsebenen}{14}{subsection.1.2.1.1}
-\contentsline {paragraph}{Systemebene:}{14}{subsection.1.2.1.1}
-\contentsline {paragraph}{Algorithmische Ebene:}{14}{subsection.1.2.1.1}
-\contentsline {paragraph}{Register-Transfer Ebene:}{14}{subsection.1.2.1.1}
-\contentsline {paragraph}{Logikebene:}{14}{subsection.1.2.1.1}
+\contentsline {paragraph}{Systemebene (system level):}{14}{subsection.1.2.1.1}
+\contentsline {paragraph}{Algorithmische Ebene (algorithm level):}{14}{subsection.1.2.1.1}
+\contentsline {paragraph}{Register-Transfer Ebene (register-transfer-level - RTL):}{14}{subsection.1.2.1.1}
+\contentsline {paragraph}{Logikebene (gate level):}{14}{subsection.1.2.1.1}
 \contentsline {paragraph}{Schaltkreiseben:}{14}{subsection.1.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Sichten}{14}{subsection.1.2.1.2}
 \contentsline {paragraph}{Verhaltenssicht:}{14}{subsection.1.2.1.2}
@@ -149,101 +149,106 @@
 \contentsline {chapter}{\numberline {4}Hardwarebeschreibungssprachen - Hardware Description Language (HDL)}{41}{chapter.1.4}
 \contentsline {section}{\numberline {4.1}Allgemein}{41}{section.1.4.1}
 \contentsline {section}{\numberline {4.2}VHDL}{41}{section.1.4.2}
-\contentsline {section}{\numberline {4.3}Verilog}{41}{section.1.4.3}
-\contentsline {chapter}{\numberline {5}Field-programmable Gate-Array (FPGA)}{42}{chapter.1.5}
-\contentsline {section}{\numberline {5.1}Architektur}{42}{section.1.5.1}
-\contentsline {section}{\numberline {5.2}Funktionsbl\IeC {\"o}cke}{42}{section.1.5.2}
-\contentsline {section}{\numberline {5.3}I/O-Zellen}{42}{section.1.5.3}
-\contentsline {section}{\numberline {5.4}Verdrahtung}{42}{section.1.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Topologie}{42}{subsection.1.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Technologie}{42}{subsection.1.5.4.2}
-\contentsline {section}{\numberline {5.5}Speicherelemente}{42}{section.1.5.5}
-\contentsline {subsection}{\numberline {5.5.1}LUT-RAM}{42}{subsection.1.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Block-RAM}{42}{subsection.1.5.5.2}
-\contentsline {section}{\numberline {5.6}IP-Cores}{42}{section.1.5.6}
-\contentsline {section}{\numberline {5.7}Konfigurierbarkeit}{42}{section.1.5.7}
-\contentsline {section}{\numberline {5.8}Konfigurationsmodi}{42}{section.1.5.8}
-\contentsline {chapter}{\numberline {6}Modellierung}{43}{chapter.1.6}
-\contentsline {chapter}{\numberline {7}Simulation}{44}{chapter.1.7}
-\contentsline {chapter}{\numberline {8}Zeitverhalten}{45}{chapter.1.8}
-\contentsline {chapter}{\numberline {9}Test}{46}{chapter.1.9}
-\contentsline {chapter}{\numberline {10}Hochgeschwindigkeit}{47}{chapter.1.10}
-\contentsline {chapter}{\numberline {11}Verlustleistung}{48}{chapter.1.11}
-\contentsline {part}{\numberline {II}Entwurf eingebetteter Systeme}{49}{part.2}
-\contentsline {part}{\numberline {III}Parallelverarbeitung}{50}{part.3}
-\contentsline {part}{\numberline {IV}Appendix}{51}{part.4}
-\contentsline {chapter}{\numberline {1}VLSI-Systementwurf Praktikum}{52}{chapter.4.1}
-\contentsline {section}{\numberline {1.1}Kurze Beschreibung des Terasic DE0 Board}{52}{section.4.1.1}
-\contentsline {section}{\numberline {1.2}Aufgabe 1 - Bin\IeC {\"a}r-Dekoder}{54}{section.4.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Entwurf}{54}{subsection.4.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Auswertung}{54}{subsection.4.1.2.2}
-\contentsline {paragraph}{Ressourcenbedarf}{54}{subsection.4.1.2.2}
-\contentsline {section}{\numberline {1.3}Aufgabe 2 - Hamming-Distanz}{55}{section.4.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Entwurf}{55}{subsection.4.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Auswertung}{55}{subsection.4.1.3.2}
-\contentsline {paragraph}{Ressourcenbedarf}{55}{subsection.4.1.3.2}
-\contentsline {section}{\numberline {1.4}Aufgabe 3 - Modulo-n-Z\IeC {\"a}hler}{56}{section.4.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Entwurf}{56}{subsection.4.1.4.1}
-\contentsline {paragraph}{Z\IeC {\"a}hler}{56}{subsection.4.1.4.1}
-\contentsline {paragraph}{Schieber}{57}{subsection.4.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Auswertung}{57}{subsection.4.1.4.2}
-\contentsline {paragraph}{Ressourcenbedarf}{57}{subsection.4.1.4.2}
-\contentsline {section}{\numberline {1.5}Aufgabe 4 - Entprell-Automat}{58}{section.4.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Entwurf}{58}{subsection.4.1.5.1}
-\contentsline {paragraph}{State-Machine-Charts}{58}{subsection.4.1.5.1}
-\contentsline {paragraph}{LED}{58}{subsection.4.1.5.1}
-\contentsline {paragraph}{Entprellung}{58}{subsection.4.1.5.1}
-\contentsline {paragraph}{Zaehler}{59}{subsection.4.1.5.1}
-\contentsline {paragraph}{Kopplung}{59}{subsection.4.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Auswertung}{59}{subsection.4.1.5.2}
-\contentsline {paragraph}{Ressourcenbedarf}{59}{subsection.4.1.5.2}
-\contentsline {section}{\numberline {1.6}Aufgabe 5 - HALLO-Anzeige}{60}{section.4.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Entwurf}{60}{subsection.4.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Auswertung}{61}{subsection.4.1.6.2}
-\contentsline {paragraph}{Ressourcenbedarf}{61}{subsection.4.1.6.2}
-\contentsline {section}{\numberline {1.7}Aufgabe 6 - Stoppuhr}{61}{section.4.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Entwurf}{62}{subsection.4.1.7.1}
-\contentsline {paragraph}{State-Machine-Charts}{63}{subsection.4.1.7.1}
-\contentsline {paragraph}{Kopplung}{64}{subsection.4.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Auswertung}{64}{subsection.4.1.7.2}
-\contentsline {paragraph}{Ressourcenbedarf}{64}{subsection.4.1.7.2}
-\contentsline {section}{\numberline {1.8}Anhang}{64}{section.4.1.8}
-\contentsline {subsection}{\numberline {1.8.1}01-Aufgabe Code}{64}{subsection.4.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}02-Aufgabe Code}{65}{subsection.4.1.8.2}
-\contentsline {subsection}{\numberline {1.8.3}03-Aufgabe Code}{66}{subsection.4.1.8.3}
-\contentsline {subsection}{\numberline {1.8.4}04-Aufgabe Code}{67}{subsection.4.1.8.4}
-\contentsline {subsection}{\numberline {1.8.5}05-Aufgabe Code}{70}{subsection.4.1.8.5}
-\contentsline {subsection}{\numberline {1.8.6}06-Aufgabe Code}{73}{subsection.4.1.8.6}
-\contentsline {chapter}{\numberline {2}Entwurf eingebetteter Systeme: Schaltkreisvalidation}{79}{chapter.4.2}
-\contentsline {section}{\numberline {2.1}Programm}{79}{section.4.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Entwurf}{79}{subsection.4.2.1.1}
-\contentsline {subsubsection}{Circuit}{79}{subsection.4.2.1.1}
-\contentsline {subsubsection}{Parser}{79}{subsection.4.2.1.1}
-\contentsline {subsubsection}{Simulator}{79}{subsection.4.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}\IeC {\"A}quivalenzpr\IeC {\"u}fung duch Simulation}{80}{subsection.4.2.1.2}
-\contentsline {subsubsection}{Voraussetzungen}{80}{subsection.4.2.1.2}
-\contentsline {subsubsection}{Vorgehen}{80}{subsection.4.2.1.2}
-\contentsline {subsubsection}{Implementierung}{80}{Item.25}
-\contentsline {subsection}{\numberline {2.1.3}\IeC {\"A}quivalenzpr\IeC {\"u}fung durch SAT-Solver}{81}{subsection.4.2.1.3}
-\contentsline {subsubsection}{Voraussetzungen}{81}{subsection.4.2.1.3}
-\contentsline {subsubsection}{Vorgehen}{81}{subsection.4.2.1.3}
-\contentsline {subsubsection}{Implementierung}{81}{Item.31}
-\contentsline {section}{\numberline {2.2}Versuche}{82}{section.4.2.2}
-\contentsline {subsection}{\numberline {2.2.1}1. Versuch}{82}{subsection.4.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}2. Versuch}{82}{subsection.4.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}3. Versuch}{82}{subsection.4.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}4. Versuch}{83}{subsection.4.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}5. Versuch}{83}{subsection.4.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}6. Versuch}{83}{subsection.4.2.2.6}
-\contentsline {section}{\numberline {2.3}Anhang}{84}{section.4.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Circuit}{84}{subsection.4.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Simulator}{85}{subsection.4.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Solver}{85}{subsection.4.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Parsers}{86}{subsection.4.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Parser}{86}{subsection.4.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}BENCH}{87}{subsection.4.2.3.6}
-\contentsline {subsection}{\numberline {2.3.7}Gates}{87}{subsection.4.2.3.7}
-\contentsline {subsection}{\numberline {2.3.8}Gate}{88}{subsection.4.2.3.8}
-\contentsline {subsection}{\numberline {2.3.9}Input}{89}{subsection.4.2.3.9}
-\contentsline {subsection}{\numberline {2.3.10}DFF}{89}{subsection.4.2.3.10}
-\contentsline {subsection}{\numberline {2.3.11}Output}{90}{subsection.4.2.3.11}
+\contentsline {subsection}{\numberline {4.2.1}Geschichte}{41}{subsection.1.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Abstraktionsebenen}{41}{subsection.1.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Grunds\IeC {\"a}tze}{42}{subsection.1.4.2.3}
+\contentsline {paragraph}{Struktur}{42}{subsection.1.4.2.3}
+\contentsline {paragraph}{Koh\IeC {\"a}renz}{42}{subsection.1.4.2.3}
+\contentsline {section}{\numberline {4.3}Verilog}{42}{section.1.4.3}
+\contentsline {chapter}{\numberline {5}Field-programmable Gate-Array (FPGA)}{43}{chapter.1.5}
+\contentsline {section}{\numberline {5.1}Architektur}{43}{section.1.5.1}
+\contentsline {section}{\numberline {5.2}Funktionsbl\IeC {\"o}cke}{43}{section.1.5.2}
+\contentsline {section}{\numberline {5.3}I/O-Zellen}{43}{section.1.5.3}
+\contentsline {section}{\numberline {5.4}Verdrahtung}{43}{section.1.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Topologie}{43}{subsection.1.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Technologie}{43}{subsection.1.5.4.2}
+\contentsline {section}{\numberline {5.5}Speicherelemente}{43}{section.1.5.5}
+\contentsline {subsection}{\numberline {5.5.1}LUT-RAM}{43}{subsection.1.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Block-RAM}{43}{subsection.1.5.5.2}
+\contentsline {section}{\numberline {5.6}IP-Cores}{43}{section.1.5.6}
+\contentsline {section}{\numberline {5.7}Konfigurierbarkeit}{43}{section.1.5.7}
+\contentsline {section}{\numberline {5.8}Konfigurationsmodi}{43}{section.1.5.8}
+\contentsline {chapter}{\numberline {6}Modellierung}{44}{chapter.1.6}
+\contentsline {chapter}{\numberline {7}Simulation}{45}{chapter.1.7}
+\contentsline {chapter}{\numberline {8}Zeitverhalten}{46}{chapter.1.8}
+\contentsline {chapter}{\numberline {9}Test}{47}{chapter.1.9}
+\contentsline {chapter}{\numberline {10}Hochgeschwindigkeit}{48}{chapter.1.10}
+\contentsline {chapter}{\numberline {11}Verlustleistung}{49}{chapter.1.11}
+\contentsline {part}{\numberline {II}Entwurf eingebetteter Systeme}{50}{part.2}
+\contentsline {part}{\numberline {III}Parallelverarbeitung}{51}{part.3}
+\contentsline {part}{\numberline {IV}Appendix}{52}{part.4}
+\contentsline {chapter}{\numberline {1}VLSI-Systementwurf Praktikum}{53}{chapter.4.1}
+\contentsline {section}{\numberline {1.1}Kurze Beschreibung des Terasic DE0 Board}{53}{section.4.1.1}
+\contentsline {section}{\numberline {1.2}Aufgabe 1 - Bin\IeC {\"a}r-Dekoder}{55}{section.4.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Entwurf}{55}{subsection.4.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Auswertung}{55}{subsection.4.1.2.2}
+\contentsline {paragraph}{Ressourcenbedarf}{55}{subsection.4.1.2.2}
+\contentsline {section}{\numberline {1.3}Aufgabe 2 - Hamming-Distanz}{56}{section.4.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Entwurf}{56}{subsection.4.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Auswertung}{56}{subsection.4.1.3.2}
+\contentsline {paragraph}{Ressourcenbedarf}{56}{subsection.4.1.3.2}
+\contentsline {section}{\numberline {1.4}Aufgabe 3 - Modulo-n-Z\IeC {\"a}hler}{57}{section.4.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Entwurf}{57}{subsection.4.1.4.1}
+\contentsline {paragraph}{Z\IeC {\"a}hler}{57}{subsection.4.1.4.1}
+\contentsline {paragraph}{Schieber}{58}{subsection.4.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Auswertung}{58}{subsection.4.1.4.2}
+\contentsline {paragraph}{Ressourcenbedarf}{58}{subsection.4.1.4.2}
+\contentsline {section}{\numberline {1.5}Aufgabe 4 - Entprell-Automat}{59}{section.4.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Entwurf}{59}{subsection.4.1.5.1}
+\contentsline {paragraph}{State-Machine-Charts}{59}{subsection.4.1.5.1}
+\contentsline {paragraph}{LED}{59}{subsection.4.1.5.1}
+\contentsline {paragraph}{Entprellung}{59}{subsection.4.1.5.1}
+\contentsline {paragraph}{Zaehler}{60}{subsection.4.1.5.1}
+\contentsline {paragraph}{Kopplung}{60}{subsection.4.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Auswertung}{60}{subsection.4.1.5.2}
+\contentsline {paragraph}{Ressourcenbedarf}{60}{subsection.4.1.5.2}
+\contentsline {section}{\numberline {1.6}Aufgabe 5 - HALLO-Anzeige}{61}{section.4.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Entwurf}{61}{subsection.4.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Auswertung}{62}{subsection.4.1.6.2}
+\contentsline {paragraph}{Ressourcenbedarf}{62}{subsection.4.1.6.2}
+\contentsline {section}{\numberline {1.7}Aufgabe 6 - Stoppuhr}{62}{section.4.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Entwurf}{63}{subsection.4.1.7.1}
+\contentsline {paragraph}{State-Machine-Charts}{64}{subsection.4.1.7.1}
+\contentsline {paragraph}{Kopplung}{65}{subsection.4.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Auswertung}{65}{subsection.4.1.7.2}
+\contentsline {paragraph}{Ressourcenbedarf}{65}{subsection.4.1.7.2}
+\contentsline {section}{\numberline {1.8}Anhang}{65}{section.4.1.8}
+\contentsline {subsection}{\numberline {1.8.1}01-Aufgabe Code}{65}{subsection.4.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}02-Aufgabe Code}{66}{subsection.4.1.8.2}
+\contentsline {subsection}{\numberline {1.8.3}03-Aufgabe Code}{67}{subsection.4.1.8.3}
+\contentsline {subsection}{\numberline {1.8.4}04-Aufgabe Code}{68}{subsection.4.1.8.4}
+\contentsline {subsection}{\numberline {1.8.5}05-Aufgabe Code}{71}{subsection.4.1.8.5}
+\contentsline {subsection}{\numberline {1.8.6}06-Aufgabe Code}{74}{subsection.4.1.8.6}
+\contentsline {chapter}{\numberline {2}Entwurf eingebetteter Systeme: Schaltkreisvalidation}{80}{chapter.4.2}
+\contentsline {section}{\numberline {2.1}Programm}{80}{section.4.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Entwurf}{80}{subsection.4.2.1.1}
+\contentsline {subsubsection}{Circuit}{80}{subsection.4.2.1.1}
+\contentsline {subsubsection}{Parser}{80}{subsection.4.2.1.1}
+\contentsline {subsubsection}{Simulator}{80}{subsection.4.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}\IeC {\"A}quivalenzpr\IeC {\"u}fung duch Simulation}{81}{subsection.4.2.1.2}
+\contentsline {subsubsection}{Voraussetzungen}{81}{subsection.4.2.1.2}
+\contentsline {subsubsection}{Vorgehen}{81}{subsection.4.2.1.2}
+\contentsline {subsubsection}{Implementierung}{81}{Item.25}
+\contentsline {subsection}{\numberline {2.1.3}\IeC {\"A}quivalenzpr\IeC {\"u}fung durch SAT-Solver}{82}{subsection.4.2.1.3}
+\contentsline {subsubsection}{Voraussetzungen}{82}{subsection.4.2.1.3}
+\contentsline {subsubsection}{Vorgehen}{82}{subsection.4.2.1.3}
+\contentsline {subsubsection}{Implementierung}{82}{Item.31}
+\contentsline {section}{\numberline {2.2}Versuche}{83}{section.4.2.2}
+\contentsline {subsection}{\numberline {2.2.1}1. Versuch}{83}{subsection.4.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}2. Versuch}{83}{subsection.4.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}3. Versuch}{83}{subsection.4.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}4. Versuch}{84}{subsection.4.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}5. Versuch}{84}{subsection.4.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}6. Versuch}{84}{subsection.4.2.2.6}
+\contentsline {section}{\numberline {2.3}Anhang}{85}{section.4.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Circuit}{85}{subsection.4.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Simulator}{86}{subsection.4.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Solver}{86}{subsection.4.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Parsers}{87}{subsection.4.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Parser}{87}{subsection.4.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}BENCH}{88}{subsection.4.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}Gates}{88}{subsection.4.2.3.7}
+\contentsline {subsection}{\numberline {2.3.8}Gate}{89}{subsection.4.2.3.8}
+\contentsline {subsection}{\numberline {2.3.9}Input}{90}{subsection.4.2.3.9}
+\contentsline {subsection}{\numberline {2.3.10}DFF}{90}{subsection.4.2.3.10}
+\contentsline {subsection}{\numberline {2.3.11}Output}{91}{subsection.4.2.3.11}
