@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {1.3.1}Zwei Sichten}{8}{subsection.1.1.3.1}
 \contentsline {paragraph}{Herstellungssicht:}{8}{subsection.1.1.3.1}
 \contentsline {paragraph}{Entwurfssicht:}{8}{subsection.1.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Anwenderprogrammierbare IC}{10}{subsection.1.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Anwenderprogrammierbare IC (ASIC)}{10}{subsection.1.1.3.2}
 \contentsline {paragraph}{Merkmale:}{10}{subsection.1.1.3.2}
 \contentsline {paragraph}{Anwendung:}{10}{subsection.1.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Hardwareprogrammierung}{10}{subsection.1.1.3.3}
@@ -149,6 +149,7 @@
 \contentsline {chapter}{\numberline {4}Hardwarebeschreibungssprachen - Hardware Description Language (HDL)}{41}{chapter.1.4}
 \contentsline {section}{\numberline {4.1}Allgemein}{41}{section.1.4.1}
 \contentsline {section}{\numberline {4.2}VHDL}{41}{section.1.4.2}
+\contentsline {paragraph}{VHDL - Very High Speed Integrated Circuit (VHSIC) Hardware Description Language}{41}{section.1.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Geschichte}{41}{subsection.1.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Abstraktionsebenen}{41}{subsection.1.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Grunds\IeC {\"a}tze}{42}{subsection.1.4.2.3}

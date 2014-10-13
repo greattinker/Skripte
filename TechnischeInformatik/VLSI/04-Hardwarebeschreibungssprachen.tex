@@ -3,10 +3,15 @@
 \section{Allgemein}
 
 \section{VHDL}
-	
+\paragraph{VHDL - Very High Speed Integrated Circuit (VHSIC) Hardware Description Language}
+Mit dieser Hardware-Beschreibungssprache vergleichbar mit einer Programmiersprache ist es einfacher möglich komplizierte digitale Systeme zu beschreiben. Dabei arbeitet man nicht mit einzelnen elektronischen Bauteilen sondern beschreibt das gewünschte Verhalten einer Schaltung auf einer höheren Abstraktions-Ebene. VHDL ermöglicht das schnelle Entwickeln großer und komplexer Schaltungen (z.B. Mikroprozessor mit über 20 Mio Transistoren!) die hohe Effizienz erfordern (zeitlich wie ökonomisch) und unterstützt den Ingenieur bei allen Arbeiten.\\\\
+So kann ein System simuliert verifiziert und schließlich eine Netzliste erstellt werden.\\\\
+Aus der Netzliste können Masken für die Herstellung von MPGAs ( mask programmable gate array ) oder ähnlichen LSI ( Large scale integration )-Chips produziert werden oder sie kann (nach Konvertierung in einen geeigneten Bitstream) direkt in ein FPGA ( Field Programmable Gate Array ) oder CPLD ( Complex Programmable Logic Device ) geladen werden.\\\\
+Ferner hat sich VHDL inzwischen als Standard für die Simulationsmodelle von IP (Intellectual Property) durchgesetzt.
+
 \subsection{Geschichte}
 	VHDL - Very High Speed Integrated Circuit (VHSIC) Hardware Description Language
-	
+
 	\begin{description}
 		\item[1981] Initiert durch US Verteidigugnsministerium um die Wiederverwendung von Hardware in neuen Technologien zu vereinfachen
 		\item[1983] Intermetrics, IBM and TI wollen eine ADA-basierte HDL entwerfen
@@ -18,7 +23,7 @@
 		\item[1993] IEEE-Standard 1076-1993 ist immer noch weitv erbreitet
 		\item[2008] IEEE-Stanard 1076-2008 letzte Hauptversion von VHDL
 	\end{description}
-	
+
 \subsection{Abstraktionsebenen}
 	VHDL ist geeignet folgende Ebenen zu beschreiben:
 	\begin{itemize}
@@ -30,7 +35,7 @@
 	\begin{center}
 		\includegraphics[page=4, width=0.8\linewidth, trim=10mm 30mm 10mm 32mm, clip]{\Path/resources/Vorlesung/VLSI/04_vhdl.pdf}
 	\end{center}
-	
+
 \subsection{Grundsätze}
 	\paragraph{Struktur}\hfill\\
 	Entwürfe werden aus Komponenten zusammengebaut.\\
@@ -42,7 +47,7 @@
 		\item hierarchischer Instanzierungsbaum der Komponenten
 		\item Verdrahtung in oder durch Instanziierungs-Modul
 	\end{itemize}
-	
+
 	\paragraph{Kohärenz}
 	Implementierungen werden aus kohärenten Aussagen gebildet.
 	\begin{itemize}
@@ -52,6 +57,5 @@
 			\(s <= p\, xor\, c;\\p <= a\, xor\, b;\)
 		\item Abhängigkeiten werden durch Signalverbindungen definiert!
 	\end{itemize}
-	
-\section{Verilog}
 
+\section{Verilog}
